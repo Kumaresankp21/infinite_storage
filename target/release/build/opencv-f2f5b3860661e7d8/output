@@ -1,0 +1,564 @@
+=== Running: CARGO_TARGET_DIR="/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out" "/root/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/cargo" "build" "--release" "--package" "opencv-binding-generator" "--bin" "binding-generator"
+cargo:rerun-if-env-changed=OPENCV4_NO_PKG_CONFIG
+cargo:rerun-if-env-changed=PKG_CONFIG_x86_64-unknown-linux-gnu
+cargo:rerun-if-env-changed=PKG_CONFIG_x86_64_unknown_linux_gnu
+cargo:rerun-if-env-changed=HOST_PKG_CONFIG
+cargo:rerun-if-env-changed=PKG_CONFIG
+cargo:rerun-if-env-changed=OPENCV4_STATIC
+cargo:rerun-if-env-changed=OPENCV4_DYNAMIC
+cargo:rerun-if-env-changed=PKG_CONFIG_ALL_STATIC
+cargo:rerun-if-env-changed=PKG_CONFIG_ALL_DYNAMIC
+cargo:rerun-if-env-changed=PKG_CONFIG_PATH_x86_64-unknown-linux-gnu
+cargo:rerun-if-env-changed=PKG_CONFIG_PATH_x86_64_unknown_linux_gnu
+cargo:rerun-if-env-changed=HOST_PKG_CONFIG_PATH
+cargo:rerun-if-env-changed=PKG_CONFIG_PATH
+cargo:rerun-if-env-changed=PKG_CONFIG_LIBDIR_x86_64-unknown-linux-gnu
+cargo:rerun-if-env-changed=PKG_CONFIG_LIBDIR_x86_64_unknown_linux_gnu
+cargo:rerun-if-env-changed=HOST_PKG_CONFIG_LIBDIR
+cargo:rerun-if-env-changed=PKG_CONFIG_LIBDIR
+cargo:rerun-if-env-changed=PKG_CONFIG_SYSROOT_DIR_x86_64-unknown-linux-gnu
+cargo:rerun-if-env-changed=PKG_CONFIG_SYSROOT_DIR_x86_64_unknown_linux_gnu
+cargo:rerun-if-env-changed=HOST_PKG_CONFIG_SYSROOT_DIR
+cargo:rerun-if-env-changed=PKG_CONFIG_SYSROOT_DIR
+cargo:rerun-if-env-changed=PKG_CONFIG_SYSROOT_DIR
+cargo:rerun-if-env-changed=SYSROOT
+cargo:rerun-if-env-changed=OPENCV4_STATIC
+cargo:rerun-if-env-changed=OPENCV4_DYNAMIC
+cargo:rerun-if-env-changed=PKG_CONFIG_ALL_STATIC
+cargo:rerun-if-env-changed=PKG_CONFIG_ALL_DYNAMIC
+cargo:rerun-if-env-changed=PKG_CONFIG_x86_64-unknown-linux-gnu
+cargo:rerun-if-env-changed=PKG_CONFIG_x86_64_unknown_linux_gnu
+cargo:rerun-if-env-changed=HOST_PKG_CONFIG
+cargo:rerun-if-env-changed=PKG_CONFIG
+cargo:rerun-if-env-changed=OPENCV4_STATIC
+cargo:rerun-if-env-changed=OPENCV4_DYNAMIC
+cargo:rerun-if-env-changed=PKG_CONFIG_ALL_STATIC
+cargo:rerun-if-env-changed=PKG_CONFIG_ALL_DYNAMIC
+cargo:rerun-if-env-changed=PKG_CONFIG_PATH_x86_64-unknown-linux-gnu
+cargo:rerun-if-env-changed=PKG_CONFIG_PATH_x86_64_unknown_linux_gnu
+cargo:rerun-if-env-changed=HOST_PKG_CONFIG_PATH
+cargo:rerun-if-env-changed=PKG_CONFIG_PATH
+cargo:rerun-if-env-changed=PKG_CONFIG_LIBDIR_x86_64-unknown-linux-gnu
+cargo:rerun-if-env-changed=PKG_CONFIG_LIBDIR_x86_64_unknown_linux_gnu
+cargo:rerun-if-env-changed=HOST_PKG_CONFIG_LIBDIR
+cargo:rerun-if-env-changed=PKG_CONFIG_LIBDIR
+cargo:rerun-if-env-changed=PKG_CONFIG_SYSROOT_DIR_x86_64-unknown-linux-gnu
+cargo:rerun-if-env-changed=PKG_CONFIG_SYSROOT_DIR_x86_64_unknown_linux_gnu
+cargo:rerun-if-env-changed=HOST_PKG_CONFIG_SYSROOT_DIR
+cargo:rerun-if-env-changed=PKG_CONFIG_SYSROOT_DIR
+cargo:rustc-cfg=ocvrs_opencv_branch_4
+cargo:rerun-if-env-changed=OPENCV_PACKAGE_NAME
+cargo:rerun-if-env-changed=OPENCV_PKGCONFIG_NAME
+cargo:rerun-if-env-changed=OPENCV_CMAKE_NAME
+cargo:rerun-if-env-changed=OPENCV_CMAKE_BIN
+cargo:rerun-if-env-changed=OPENCV_VCPKG_NAME
+cargo:rerun-if-env-changed=OPENCV_LINK_LIBS
+cargo:rerun-if-env-changed=OPENCV_LINK_PATHS
+cargo:rerun-if-env-changed=OPENCV_INCLUDE_PATHS
+cargo:rerun-if-env-changed=OPENCV_DISABLE_PROBES
+cargo:rerun-if-env-changed=CMAKE_PREFIX_PATH
+cargo:rerun-if-env-changed=OpenCV_DIR
+cargo:rerun-if-env-changed=PKG_CONFIG_PATH
+cargo:rerun-if-env-changed=VCPKG_ROOT
+cargo:rerun-if-env-changed=VCPKGRS_DYNAMIC
+cargo:rerun-if-changed=/home/Infinite-Storage-Glitch/cargo_home/registry/src/index.crates.io-6f17d22bba15001f/opencv-0.75.0/src_cpp/alphamat.hpp
+cargo:rerun-if-changed=/home/Infinite-Storage-Glitch/cargo_home/registry/src/index.crates.io-6f17d22bba15001f/opencv-0.75.0/src_cpp/aruco.hpp
+cargo:rerun-if-changed=/home/Infinite-Storage-Glitch/cargo_home/registry/src/index.crates.io-6f17d22bba15001f/opencv-0.75.0/src_cpp/bioinspired.hpp
+cargo:rerun-if-changed=/home/Infinite-Storage-Glitch/cargo_home/registry/src/index.crates.io-6f17d22bba15001f/opencv-0.75.0/src_cpp/ccalib.hpp
+cargo:rerun-if-changed=/home/Infinite-Storage-Glitch/cargo_home/registry/src/index.crates.io-6f17d22bba15001f/opencv-0.75.0/src_cpp/core.hpp
+cargo:rerun-if-changed=/home/Infinite-Storage-Glitch/cargo_home/registry/src/index.crates.io-6f17d22bba15001f/opencv-0.75.0/src_cpp/dnn.hpp
+cargo:rerun-if-changed=/home/Infinite-Storage-Glitch/cargo_home/registry/src/index.crates.io-6f17d22bba15001f/opencv-0.75.0/src_cpp/face.hpp
+cargo:rerun-if-changed=/home/Infinite-Storage-Glitch/cargo_home/registry/src/index.crates.io-6f17d22bba15001f/opencv-0.75.0/src_cpp/gapi.hpp
+cargo:rerun-if-changed=/home/Infinite-Storage-Glitch/cargo_home/registry/src/index.crates.io-6f17d22bba15001f/opencv-0.75.0/src_cpp/hdf.hpp
+cargo:rerun-if-changed=/home/Infinite-Storage-Glitch/cargo_home/registry/src/index.crates.io-6f17d22bba15001f/opencv-0.75.0/src_cpp/manual-core.cpp
+cargo:rerun-if-changed=/home/Infinite-Storage-Glitch/cargo_home/registry/src/index.crates.io-6f17d22bba15001f/opencv-0.75.0/src_cpp/manual-dnn.cpp
+cargo:rerun-if-changed=/home/Infinite-Storage-Glitch/cargo_home/registry/src/index.crates.io-6f17d22bba15001f/opencv-0.75.0/src_cpp/manual-features2d.cpp
+cargo:rerun-if-changed=/home/Infinite-Storage-Glitch/cargo_home/registry/src/index.crates.io-6f17d22bba15001f/opencv-0.75.0/src_cpp/ocvrs_common.hpp
+cargo:rerun-if-changed=/home/Infinite-Storage-Glitch/cargo_home/registry/src/index.crates.io-6f17d22bba15001f/opencv-0.75.0/src_cpp/photo.hpp
+cargo:rerun-if-changed=/home/Infinite-Storage-Glitch/cargo_home/registry/src/index.crates.io-6f17d22bba15001f/opencv-0.75.0/src_cpp/sfm.hpp
+cargo:rerun-if-changed=/home/Infinite-Storage-Glitch/cargo_home/registry/src/index.crates.io-6f17d22bba15001f/opencv-0.75.0/src_cpp/videoio.hpp
+cargo:rerun-if-changed=/home/Infinite-Storage-Glitch/cargo_home/registry/src/index.crates.io-6f17d22bba15001f/opencv-0.75.0/src_cpp/xfeatures2d.hpp
+cargo:rerun-if-changed=Cargo.toml
+OPT_LEVEL = Some("3")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+cargo:rerun-if-env-changed=CXX_x86_64-unknown-linux-gnu
+CXX_x86_64-unknown-linux-gnu = None
+cargo:rerun-if-env-changed=CXX_x86_64_unknown_linux_gnu
+CXX_x86_64_unknown_linux_gnu = None
+cargo:rerun-if-env-changed=HOST_CXX
+HOST_CXX = None
+cargo:rerun-if-env-changed=CXX
+CXX = None
+cargo:rerun-if-env-changed=CXXFLAGS_x86_64-unknown-linux-gnu
+CXXFLAGS_x86_64-unknown-linux-gnu = None
+cargo:rerun-if-env-changed=CXXFLAGS_x86_64_unknown_linux_gnu
+CXXFLAGS_x86_64_unknown_linux_gnu = None
+cargo:rerun-if-env-changed=HOST_CXXFLAGS
+HOST_CXXFLAGS = None
+cargo:rerun-if-env-changed=CXXFLAGS
+CXXFLAGS = None
+cargo:rerun-if-env-changed=CRATE_CC_NO_DEFAULTS
+CRATE_CC_NO_DEFAULTS = None
+DEBUG = Some("false")
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,sse,sse2")
+cargo:rerun-if-env-changed=CXX_x86_64-unknown-linux-gnu
+CXX_x86_64-unknown-linux-gnu = None
+cargo:rerun-if-env-changed=CXX_x86_64_unknown_linux_gnu
+CXX_x86_64_unknown_linux_gnu = None
+cargo:rerun-if-env-changed=HOST_CXX
+HOST_CXX = None
+cargo:rerun-if-env-changed=CXX
+CXX = None
+cargo:rerun-if-env-changed=CXXFLAGS_x86_64-unknown-linux-gnu
+CXXFLAGS_x86_64-unknown-linux-gnu = None
+cargo:rerun-if-env-changed=CXXFLAGS_x86_64_unknown_linux_gnu
+CXXFLAGS_x86_64_unknown_linux_gnu = None
+cargo:rerun-if-env-changed=HOST_CXXFLAGS
+HOST_CXXFLAGS = None
+cargo:rerun-if-env-changed=CXXFLAGS
+CXXFLAGS = None
+cargo:rerun-if-env-changed=CRATE_CC_NO_DEFAULTS
+CRATE_CC_NO_DEFAULTS = None
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,sse,sse2")
+cargo:rerun-if-env-changed=CXX_x86_64-unknown-linux-gnu
+CXX_x86_64-unknown-linux-gnu = None
+cargo:rerun-if-env-changed=CXX_x86_64_unknown_linux_gnu
+CXX_x86_64_unknown_linux_gnu = None
+cargo:rerun-if-env-changed=HOST_CXX
+HOST_CXX = None
+cargo:rerun-if-env-changed=CXX
+CXX = None
+cargo:rerun-if-env-changed=CXXFLAGS_x86_64-unknown-linux-gnu
+CXXFLAGS_x86_64-unknown-linux-gnu = None
+cargo:rerun-if-env-changed=CXXFLAGS_x86_64_unknown_linux_gnu
+CXXFLAGS_x86_64_unknown_linux_gnu = None
+cargo:rerun-if-env-changed=HOST_CXXFLAGS
+HOST_CXXFLAGS = None
+cargo:rerun-if-env-changed=CXXFLAGS
+CXXFLAGS = None
+cargo:rerun-if-env-changed=CRATE_CC_NO_DEFAULTS
+CRATE_CC_NO_DEFAULTS = None
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,sse,sse2")
+cargo:rerun-if-env-changed=CXX_x86_64-unknown-linux-gnu
+CXX_x86_64-unknown-linux-gnu = None
+cargo:rerun-if-env-changed=CXX_x86_64_unknown_linux_gnu
+CXX_x86_64_unknown_linux_gnu = None
+cargo:rerun-if-env-changed=HOST_CXX
+HOST_CXX = None
+cargo:rerun-if-env-changed=CXX
+CXX = None
+cargo:rerun-if-env-changed=CXXFLAGS_x86_64-unknown-linux-gnu
+CXXFLAGS_x86_64-unknown-linux-gnu = None
+cargo:rerun-if-env-changed=CXXFLAGS_x86_64_unknown_linux_gnu
+CXXFLAGS_x86_64_unknown_linux_gnu = None
+cargo:rerun-if-env-changed=HOST_CXXFLAGS
+HOST_CXXFLAGS = None
+cargo:rerun-if-env-changed=CXXFLAGS
+CXXFLAGS = None
+cargo:rerun-if-env-changed=CRATE_CC_NO_DEFAULTS
+CRATE_CC_NO_DEFAULTS = None
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,sse,sse2")
+cargo:rerun-if-env-changed=CXX_x86_64-unknown-linux-gnu
+CXX_x86_64-unknown-linux-gnu = None
+cargo:rerun-if-env-changed=CXX_x86_64_unknown_linux_gnu
+CXX_x86_64_unknown_linux_gnu = None
+cargo:rerun-if-env-changed=HOST_CXX
+HOST_CXX = None
+cargo:rerun-if-env-changed=CXX
+CXX = None
+cargo:rerun-if-env-changed=CXXFLAGS_x86_64-unknown-linux-gnu
+CXXFLAGS_x86_64-unknown-linux-gnu = None
+cargo:rerun-if-env-changed=CXXFLAGS_x86_64_unknown_linux_gnu
+CXXFLAGS_x86_64_unknown_linux_gnu = None
+cargo:rerun-if-env-changed=HOST_CXXFLAGS
+HOST_CXXFLAGS = None
+cargo:rerun-if-env-changed=CXXFLAGS
+CXXFLAGS = None
+cargo:rerun-if-env-changed=CRATE_CC_NO_DEFAULTS
+CRATE_CC_NO_DEFAULTS = None
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,sse,sse2")
+cargo:rerun-if-env-changed=CXX_x86_64-unknown-linux-gnu
+CXX_x86_64-unknown-linux-gnu = None
+cargo:rerun-if-env-changed=CXX_x86_64_unknown_linux_gnu
+CXX_x86_64_unknown_linux_gnu = None
+cargo:rerun-if-env-changed=HOST_CXX
+HOST_CXX = None
+cargo:rerun-if-env-changed=CXX
+CXX = None
+cargo:rerun-if-env-changed=CXXFLAGS_x86_64-unknown-linux-gnu
+CXXFLAGS_x86_64-unknown-linux-gnu = None
+cargo:rerun-if-env-changed=CXXFLAGS_x86_64_unknown_linux_gnu
+CXXFLAGS_x86_64_unknown_linux_gnu = None
+cargo:rerun-if-env-changed=HOST_CXXFLAGS
+HOST_CXXFLAGS = None
+cargo:rerun-if-env-changed=CXXFLAGS
+CXXFLAGS = None
+cargo:rerun-if-env-changed=CRATE_CC_NO_DEFAULTS
+CRATE_CC_NO_DEFAULTS = None
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,sse,sse2")
+cargo:rerun-if-env-changed=CXX_x86_64-unknown-linux-gnu
+CXX_x86_64-unknown-linux-gnu = None
+cargo:rerun-if-env-changed=CXX_x86_64_unknown_linux_gnu
+CXX_x86_64_unknown_linux_gnu = None
+cargo:rerun-if-env-changed=HOST_CXX
+HOST_CXX = None
+cargo:rerun-if-env-changed=CXX
+CXX = None
+cargo:rerun-if-env-changed=CXXFLAGS_x86_64-unknown-linux-gnu
+CXXFLAGS_x86_64-unknown-linux-gnu = None
+cargo:rerun-if-env-changed=CXXFLAGS_x86_64_unknown_linux_gnu
+CXXFLAGS_x86_64_unknown_linux_gnu = None
+cargo:rerun-if-env-changed=HOST_CXXFLAGS
+HOST_CXXFLAGS = None
+cargo:rerun-if-env-changed=CXXFLAGS
+CXXFLAGS = None
+cargo:rerun-if-env-changed=CRATE_CC_NO_DEFAULTS
+CRATE_CC_NO_DEFAULTS = None
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,sse,sse2")
+cargo:rerun-if-env-changed=CXX_x86_64-unknown-linux-gnu
+CXX_x86_64-unknown-linux-gnu = None
+cargo:rerun-if-env-changed=CXX_x86_64_unknown_linux_gnu
+CXX_x86_64_unknown_linux_gnu = None
+cargo:rerun-if-env-changed=HOST_CXX
+HOST_CXX = None
+cargo:rerun-if-env-changed=CXX
+CXX = None
+cargo:rerun-if-env-changed=CXXFLAGS_x86_64-unknown-linux-gnu
+CXXFLAGS_x86_64-unknown-linux-gnu = None
+cargo:rerun-if-env-changed=CXXFLAGS_x86_64_unknown_linux_gnu
+CXXFLAGS_x86_64_unknown_linux_gnu = None
+cargo:rerun-if-env-changed=HOST_CXXFLAGS
+HOST_CXXFLAGS = None
+cargo:rerun-if-env-changed=CXXFLAGS
+CXXFLAGS = None
+cargo:rerun-if-env-changed=CRATE_CC_NO_DEFAULTS
+CRATE_CC_NO_DEFAULTS = None
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,sse,sse2")
+cargo:rerun-if-env-changed=CXX_x86_64-unknown-linux-gnu
+CXX_x86_64-unknown-linux-gnu = None
+cargo:rerun-if-env-changed=CXX_x86_64_unknown_linux_gnu
+CXX_x86_64_unknown_linux_gnu = None
+cargo:rerun-if-env-changed=HOST_CXX
+HOST_CXX = None
+cargo:rerun-if-env-changed=CXX
+CXX = None
+cargo:rerun-if-env-changed=CXXFLAGS_x86_64-unknown-linux-gnu
+CXXFLAGS_x86_64-unknown-linux-gnu = None
+cargo:rerun-if-env-changed=CXXFLAGS_x86_64_unknown_linux_gnu
+CXXFLAGS_x86_64_unknown_linux_gnu = None
+cargo:rerun-if-env-changed=HOST_CXXFLAGS
+HOST_CXXFLAGS = None
+cargo:rerun-if-env-changed=CXXFLAGS
+CXXFLAGS = None
+cargo:rerun-if-env-changed=CRATE_CC_NO_DEFAULTS
+CRATE_CC_NO_DEFAULTS = None
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,sse,sse2")
+cargo:rerun-if-env-changed=CXX_x86_64-unknown-linux-gnu
+CXX_x86_64-unknown-linux-gnu = None
+cargo:rerun-if-env-changed=CXX_x86_64_unknown_linux_gnu
+CXX_x86_64_unknown_linux_gnu = None
+cargo:rerun-if-env-changed=HOST_CXX
+HOST_CXX = None
+cargo:rerun-if-env-changed=CXX
+CXX = None
+cargo:rerun-if-env-changed=CXXFLAGS_x86_64-unknown-linux-gnu
+CXXFLAGS_x86_64-unknown-linux-gnu = None
+cargo:rerun-if-env-changed=CXXFLAGS_x86_64_unknown_linux_gnu
+CXXFLAGS_x86_64_unknown_linux_gnu = None
+cargo:rerun-if-env-changed=HOST_CXXFLAGS
+HOST_CXXFLAGS = None
+cargo:rerun-if-env-changed=CXXFLAGS
+CXXFLAGS = None
+cargo:rerun-if-env-changed=CRATE_CC_NO_DEFAULTS
+CRATE_CC_NO_DEFAULTS = None
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,sse,sse2")
+cargo:rustc-cfg=ocvrs_has_module_sys
+cargo:rustc-cfg=ocvrs_has_module_types
+cargo:rustc-cfg=ocvrs_has_module_alphamat
+cargo:rustc-cfg=ocvrs_has_module_aruco
+cargo:rustc-cfg=ocvrs_has_module_barcode
+cargo:rustc-cfg=ocvrs_has_module_bgsegm
+cargo:rustc-cfg=ocvrs_has_module_bioinspired
+cargo:rustc-cfg=ocvrs_has_module_calib3d
+cargo:rustc-cfg=ocvrs_has_module_ccalib
+cargo:rustc-cfg=ocvrs_has_module_core
+cargo:rustc-cfg=ocvrs_has_module_dnn
+cargo:rustc-cfg=ocvrs_has_module_dnn_superres
+cargo:rustc-cfg=ocvrs_has_module_dpm
+cargo:rustc-cfg=ocvrs_has_module_face
+cargo:rustc-cfg=ocvrs_has_module_features2d
+cargo:rustc-cfg=ocvrs_has_module_flann
+cargo:rustc-cfg=ocvrs_has_module_freetype
+cargo:rustc-cfg=ocvrs_has_module_fuzzy
+cargo:rustc-cfg=ocvrs_has_module_hdf
+cargo:rustc-cfg=ocvrs_has_module_hfs
+cargo:rustc-cfg=ocvrs_has_module_highgui
+cargo:rustc-cfg=ocvrs_has_module_img_hash
+cargo:rustc-cfg=ocvrs_has_module_imgcodecs
+cargo:rustc-cfg=ocvrs_has_module_imgproc
+cargo:rustc-cfg=ocvrs_has_module_intensity_transform
+cargo:rustc-cfg=ocvrs_has_module_line_descriptor
+cargo:rustc-cfg=ocvrs_has_module_mcc
+cargo:rustc-cfg=ocvrs_has_module_ml
+cargo:rustc-cfg=ocvrs_has_module_objdetect
+cargo:rustc-cfg=ocvrs_has_module_optflow
+cargo:rustc-cfg=ocvrs_has_module_phase_unwrapping
+cargo:rustc-cfg=ocvrs_has_module_photo
+cargo:rustc-cfg=ocvrs_has_module_plot
+cargo:rustc-cfg=ocvrs_has_module_quality
+cargo:rustc-cfg=ocvrs_has_module_rapid
+cargo:rustc-cfg=ocvrs_has_module_rgbd
+cargo:rustc-cfg=ocvrs_has_module_saliency
+cargo:rustc-cfg=ocvrs_has_module_shape
+cargo:rustc-cfg=ocvrs_has_module_stereo
+cargo:rustc-cfg=ocvrs_has_module_stitching
+cargo:rustc-cfg=ocvrs_has_module_structured_light
+cargo:rustc-cfg=ocvrs_has_module_superres
+cargo:rustc-cfg=ocvrs_has_module_surface_matching
+cargo:rustc-cfg=ocvrs_has_module_text
+cargo:rustc-cfg=ocvrs_has_module_tracking
+cargo:rustc-cfg=ocvrs_has_module_video
+cargo:rustc-cfg=ocvrs_has_module_videoio
+cargo:rustc-cfg=ocvrs_has_module_videostab
+cargo:rustc-cfg=ocvrs_has_module_viz
+cargo:rustc-cfg=ocvrs_has_module_wechat_qrcode
+cargo:rustc-cfg=ocvrs_has_module_ximgproc
+cargo:rustc-cfg=ocvrs_has_module_xobjdetect
+cargo:rustc-cfg=ocvrs_has_module_xphoto
+running: "c++" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I" "/home/Infinite-Storage-Glitch/cargo_home/registry/src/index.crates.io-6f17d22bba15001f/opencv-0.75.0/src_cpp" "-I" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out" "-I" "." "-I" "/usr/include/opencv4" "-Wall" "-Wextra" "-std=c++11" "-Wno-deprecated-declarations" "-Wno-deprecated-copy" "-Wno-unused-parameter" "-Wno-sign-compare" "-Wno-comment" "-Wno-unused-variable" "-Wno-ignored-qualifiers" "-Wno-return-type-c-linkage" "-o" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/1a5837e1dc2eab56-aruco.o" "-c" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/aruco.cpp"
+running: "c++" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I" "/home/Infinite-Storage-Glitch/cargo_home/registry/src/index.crates.io-6f17d22bba15001f/opencv-0.75.0/src_cpp" "-I" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out" "-I" "." "-I" "/usr/include/opencv4" "-Wall" "-Wextra" "-std=c++11" "-Wno-deprecated-declarations" "-Wno-deprecated-copy" "-Wno-unused-parameter" "-Wno-sign-compare" "-Wno-comment" "-Wno-unused-variable" "-Wno-ignored-qualifiers" "-Wno-return-type-c-linkage" "-o" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/1a5837e1dc2eab56-alphamat.o" "-c" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/alphamat.cpp"
+running: "c++" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I" "/home/Infinite-Storage-Glitch/cargo_home/registry/src/index.crates.io-6f17d22bba15001f/opencv-0.75.0/src_cpp" "-I" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out" "-I" "." "-I" "/usr/include/opencv4" "-Wall" "-Wextra" "-std=c++11" "-Wno-deprecated-declarations" "-Wno-deprecated-copy" "-Wno-unused-parameter" "-Wno-sign-compare" "-Wno-comment" "-Wno-unused-variable" "-Wno-ignored-qualifiers" "-Wno-return-type-c-linkage" "-o" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/1a5837e1dc2eab56-bgsegm.o" "-c" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/bgsegm.cpp"
+running: "c++" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I" "/home/Infinite-Storage-Glitch/cargo_home/registry/src/index.crates.io-6f17d22bba15001f/opencv-0.75.0/src_cpp" "-I" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out" "-I" "." "-I" "/usr/include/opencv4" "-Wall" "-Wextra" "-std=c++11" "-Wno-deprecated-declarations" "-Wno-deprecated-copy" "-Wno-unused-parameter" "-Wno-sign-compare" "-Wno-comment" "-Wno-unused-variable" "-Wno-ignored-qualifiers" "-Wno-return-type-c-linkage" "-o" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/1a5837e1dc2eab56-bioinspired.o" "-c" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/bioinspired.cpp"
+running: "c++" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I" "/home/Infinite-Storage-Glitch/cargo_home/registry/src/index.crates.io-6f17d22bba15001f/opencv-0.75.0/src_cpp" "-I" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out" "-I" "." "-I" "/usr/include/opencv4" "-Wall" "-Wextra" "-std=c++11" "-Wno-deprecated-declarations" "-Wno-deprecated-copy" "-Wno-unused-parameter" "-Wno-sign-compare" "-Wno-comment" "-Wno-unused-variable" "-Wno-ignored-qualifiers" "-Wno-return-type-c-linkage" "-o" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/1a5837e1dc2eab56-barcode.o" "-c" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/barcode.cpp"
+exit status: 0
+running: "c++" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I" "/home/Infinite-Storage-Glitch/cargo_home/registry/src/index.crates.io-6f17d22bba15001f/opencv-0.75.0/src_cpp" "-I" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out" "-I" "." "-I" "/usr/include/opencv4" "-Wall" "-Wextra" "-std=c++11" "-Wno-deprecated-declarations" "-Wno-deprecated-copy" "-Wno-unused-parameter" "-Wno-sign-compare" "-Wno-comment" "-Wno-unused-variable" "-Wno-ignored-qualifiers" "-Wno-return-type-c-linkage" "-o" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/1a5837e1dc2eab56-calib3d.o" "-c" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/calib3d.cpp"
+exit status: 0
+running: "c++" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I" "/home/Infinite-Storage-Glitch/cargo_home/registry/src/index.crates.io-6f17d22bba15001f/opencv-0.75.0/src_cpp" "-I" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out" "-I" "." "-I" "/usr/include/opencv4" "-Wall" "-Wextra" "-std=c++11" "-Wno-deprecated-declarations" "-Wno-deprecated-copy" "-Wno-unused-parameter" "-Wno-sign-compare" "-Wno-comment" "-Wno-unused-variable" "-Wno-ignored-qualifiers" "-Wno-return-type-c-linkage" "-o" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/1a5837e1dc2eab56-ccalib.o" "-c" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/ccalib.cpp"
+exit status: 0
+running: "c++" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I" "/home/Infinite-Storage-Glitch/cargo_home/registry/src/index.crates.io-6f17d22bba15001f/opencv-0.75.0/src_cpp" "-I" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out" "-I" "." "-I" "/usr/include/opencv4" "-Wall" "-Wextra" "-std=c++11" "-Wno-deprecated-declarations" "-Wno-deprecated-copy" "-Wno-unused-parameter" "-Wno-sign-compare" "-Wno-comment" "-Wno-unused-variable" "-Wno-ignored-qualifiers" "-Wno-return-type-c-linkage" "-o" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/1a5837e1dc2eab56-core.o" "-c" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/core.cpp"
+exit status: 0
+running: "c++" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I" "/home/Infinite-Storage-Glitch/cargo_home/registry/src/index.crates.io-6f17d22bba15001f/opencv-0.75.0/src_cpp" "-I" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out" "-I" "." "-I" "/usr/include/opencv4" "-Wall" "-Wextra" "-std=c++11" "-Wno-deprecated-declarations" "-Wno-deprecated-copy" "-Wno-unused-parameter" "-Wno-sign-compare" "-Wno-comment" "-Wno-unused-variable" "-Wno-ignored-qualifiers" "-Wno-return-type-c-linkage" "-o" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/1060d6a155a38723-manual-core.o" "-c" "/home/Infinite-Storage-Glitch/cargo_home/registry/src/index.crates.io-6f17d22bba15001f/opencv-0.75.0/src_cpp/manual-core.cpp"
+exit status: 0
+running: "c++" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I" "/home/Infinite-Storage-Glitch/cargo_home/registry/src/index.crates.io-6f17d22bba15001f/opencv-0.75.0/src_cpp" "-I" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out" "-I" "." "-I" "/usr/include/opencv4" "-Wall" "-Wextra" "-std=c++11" "-Wno-deprecated-declarations" "-Wno-deprecated-copy" "-Wno-unused-parameter" "-Wno-sign-compare" "-Wno-comment" "-Wno-unused-variable" "-Wno-ignored-qualifiers" "-Wno-return-type-c-linkage" "-o" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/1a5837e1dc2eab56-dnn.o" "-c" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/dnn.cpp"
+exit status: 0
+running: "c++" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I" "/home/Infinite-Storage-Glitch/cargo_home/registry/src/index.crates.io-6f17d22bba15001f/opencv-0.75.0/src_cpp" "-I" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out" "-I" "." "-I" "/usr/include/opencv4" "-Wall" "-Wextra" "-std=c++11" "-Wno-deprecated-declarations" "-Wno-deprecated-copy" "-Wno-unused-parameter" "-Wno-sign-compare" "-Wno-comment" "-Wno-unused-variable" "-Wno-ignored-qualifiers" "-Wno-return-type-c-linkage" "-o" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/1060d6a155a38723-manual-dnn.o" "-c" "/home/Infinite-Storage-Glitch/cargo_home/registry/src/index.crates.io-6f17d22bba15001f/opencv-0.75.0/src_cpp/manual-dnn.cpp"
+exit status: 0
+running: "c++" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I" "/home/Infinite-Storage-Glitch/cargo_home/registry/src/index.crates.io-6f17d22bba15001f/opencv-0.75.0/src_cpp" "-I" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out" "-I" "." "-I" "/usr/include/opencv4" "-Wall" "-Wextra" "-std=c++11" "-Wno-deprecated-declarations" "-Wno-deprecated-copy" "-Wno-unused-parameter" "-Wno-sign-compare" "-Wno-comment" "-Wno-unused-variable" "-Wno-ignored-qualifiers" "-Wno-return-type-c-linkage" "-o" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/1a5837e1dc2eab56-dnn_superres.o" "-c" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/dnn_superres.cpp"
+exit status: 0
+running: "c++" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I" "/home/Infinite-Storage-Glitch/cargo_home/registry/src/index.crates.io-6f17d22bba15001f/opencv-0.75.0/src_cpp" "-I" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out" "-I" "." "-I" "/usr/include/opencv4" "-Wall" "-Wextra" "-std=c++11" "-Wno-deprecated-declarations" "-Wno-deprecated-copy" "-Wno-unused-parameter" "-Wno-sign-compare" "-Wno-comment" "-Wno-unused-variable" "-Wno-ignored-qualifiers" "-Wno-return-type-c-linkage" "-o" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/1a5837e1dc2eab56-dpm.o" "-c" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/dpm.cpp"
+exit status: 0
+running: "c++" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I" "/home/Infinite-Storage-Glitch/cargo_home/registry/src/index.crates.io-6f17d22bba15001f/opencv-0.75.0/src_cpp" "-I" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out" "-I" "." "-I" "/usr/include/opencv4" "-Wall" "-Wextra" "-std=c++11" "-Wno-deprecated-declarations" "-Wno-deprecated-copy" "-Wno-unused-parameter" "-Wno-sign-compare" "-Wno-comment" "-Wno-unused-variable" "-Wno-ignored-qualifiers" "-Wno-return-type-c-linkage" "-o" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/1a5837e1dc2eab56-face.o" "-c" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/face.cpp"
+exit status: 0
+running: "c++" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I" "/home/Infinite-Storage-Glitch/cargo_home/registry/src/index.crates.io-6f17d22bba15001f/opencv-0.75.0/src_cpp" "-I" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out" "-I" "." "-I" "/usr/include/opencv4" "-Wall" "-Wextra" "-std=c++11" "-Wno-deprecated-declarations" "-Wno-deprecated-copy" "-Wno-unused-parameter" "-Wno-sign-compare" "-Wno-comment" "-Wno-unused-variable" "-Wno-ignored-qualifiers" "-Wno-return-type-c-linkage" "-o" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/1a5837e1dc2eab56-features2d.o" "-c" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/features2d.cpp"
+exit status: 0
+running: "c++" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I" "/home/Infinite-Storage-Glitch/cargo_home/registry/src/index.crates.io-6f17d22bba15001f/opencv-0.75.0/src_cpp" "-I" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out" "-I" "." "-I" "/usr/include/opencv4" "-Wall" "-Wextra" "-std=c++11" "-Wno-deprecated-declarations" "-Wno-deprecated-copy" "-Wno-unused-parameter" "-Wno-sign-compare" "-Wno-comment" "-Wno-unused-variable" "-Wno-ignored-qualifiers" "-Wno-return-type-c-linkage" "-o" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/1060d6a155a38723-manual-features2d.o" "-c" "/home/Infinite-Storage-Glitch/cargo_home/registry/src/index.crates.io-6f17d22bba15001f/opencv-0.75.0/src_cpp/manual-features2d.cpp"
+exit status: 0
+running: "c++" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I" "/home/Infinite-Storage-Glitch/cargo_home/registry/src/index.crates.io-6f17d22bba15001f/opencv-0.75.0/src_cpp" "-I" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out" "-I" "." "-I" "/usr/include/opencv4" "-Wall" "-Wextra" "-std=c++11" "-Wno-deprecated-declarations" "-Wno-deprecated-copy" "-Wno-unused-parameter" "-Wno-sign-compare" "-Wno-comment" "-Wno-unused-variable" "-Wno-ignored-qualifiers" "-Wno-return-type-c-linkage" "-o" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/1a5837e1dc2eab56-flann.o" "-c" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/flann.cpp"
+exit status: 0
+running: "c++" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I" "/home/Infinite-Storage-Glitch/cargo_home/registry/src/index.crates.io-6f17d22bba15001f/opencv-0.75.0/src_cpp" "-I" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out" "-I" "." "-I" "/usr/include/opencv4" "-Wall" "-Wextra" "-std=c++11" "-Wno-deprecated-declarations" "-Wno-deprecated-copy" "-Wno-unused-parameter" "-Wno-sign-compare" "-Wno-comment" "-Wno-unused-variable" "-Wno-ignored-qualifiers" "-Wno-return-type-c-linkage" "-o" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/1a5837e1dc2eab56-freetype.o" "-c" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/freetype.cpp"
+exit status: 0
+running: "c++" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I" "/home/Infinite-Storage-Glitch/cargo_home/registry/src/index.crates.io-6f17d22bba15001f/opencv-0.75.0/src_cpp" "-I" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out" "-I" "." "-I" "/usr/include/opencv4" "-Wall" "-Wextra" "-std=c++11" "-Wno-deprecated-declarations" "-Wno-deprecated-copy" "-Wno-unused-parameter" "-Wno-sign-compare" "-Wno-comment" "-Wno-unused-variable" "-Wno-ignored-qualifiers" "-Wno-return-type-c-linkage" "-o" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/1a5837e1dc2eab56-fuzzy.o" "-c" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/fuzzy.cpp"
+exit status: 0
+running: "c++" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I" "/home/Infinite-Storage-Glitch/cargo_home/registry/src/index.crates.io-6f17d22bba15001f/opencv-0.75.0/src_cpp" "-I" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out" "-I" "." "-I" "/usr/include/opencv4" "-Wall" "-Wextra" "-std=c++11" "-Wno-deprecated-declarations" "-Wno-deprecated-copy" "-Wno-unused-parameter" "-Wno-sign-compare" "-Wno-comment" "-Wno-unused-variable" "-Wno-ignored-qualifiers" "-Wno-return-type-c-linkage" "-o" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/1a5837e1dc2eab56-hdf.o" "-c" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/hdf.cpp"
+exit status: 0
+running: "c++" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I" "/home/Infinite-Storage-Glitch/cargo_home/registry/src/index.crates.io-6f17d22bba15001f/opencv-0.75.0/src_cpp" "-I" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out" "-I" "." "-I" "/usr/include/opencv4" "-Wall" "-Wextra" "-std=c++11" "-Wno-deprecated-declarations" "-Wno-deprecated-copy" "-Wno-unused-parameter" "-Wno-sign-compare" "-Wno-comment" "-Wno-unused-variable" "-Wno-ignored-qualifiers" "-Wno-return-type-c-linkage" "-o" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/1a5837e1dc2eab56-hfs.o" "-c" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/hfs.cpp"
+exit status: 0
+running: "c++" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I" "/home/Infinite-Storage-Glitch/cargo_home/registry/src/index.crates.io-6f17d22bba15001f/opencv-0.75.0/src_cpp" "-I" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out" "-I" "." "-I" "/usr/include/opencv4" "-Wall" "-Wextra" "-std=c++11" "-Wno-deprecated-declarations" "-Wno-deprecated-copy" "-Wno-unused-parameter" "-Wno-sign-compare" "-Wno-comment" "-Wno-unused-variable" "-Wno-ignored-qualifiers" "-Wno-return-type-c-linkage" "-o" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/1a5837e1dc2eab56-highgui.o" "-c" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/highgui.cpp"
+exit status: 0
+running: "c++" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I" "/home/Infinite-Storage-Glitch/cargo_home/registry/src/index.crates.io-6f17d22bba15001f/opencv-0.75.0/src_cpp" "-I" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out" "-I" "." "-I" "/usr/include/opencv4" "-Wall" "-Wextra" "-std=c++11" "-Wno-deprecated-declarations" "-Wno-deprecated-copy" "-Wno-unused-parameter" "-Wno-sign-compare" "-Wno-comment" "-Wno-unused-variable" "-Wno-ignored-qualifiers" "-Wno-return-type-c-linkage" "-o" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/1a5837e1dc2eab56-img_hash.o" "-c" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/img_hash.cpp"
+exit status: 0
+running: "c++" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I" "/home/Infinite-Storage-Glitch/cargo_home/registry/src/index.crates.io-6f17d22bba15001f/opencv-0.75.0/src_cpp" "-I" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out" "-I" "." "-I" "/usr/include/opencv4" "-Wall" "-Wextra" "-std=c++11" "-Wno-deprecated-declarations" "-Wno-deprecated-copy" "-Wno-unused-parameter" "-Wno-sign-compare" "-Wno-comment" "-Wno-unused-variable" "-Wno-ignored-qualifiers" "-Wno-return-type-c-linkage" "-o" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/1a5837e1dc2eab56-imgcodecs.o" "-c" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/imgcodecs.cpp"
+exit status: 0
+running: "c++" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I" "/home/Infinite-Storage-Glitch/cargo_home/registry/src/index.crates.io-6f17d22bba15001f/opencv-0.75.0/src_cpp" "-I" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out" "-I" "." "-I" "/usr/include/opencv4" "-Wall" "-Wextra" "-std=c++11" "-Wno-deprecated-declarations" "-Wno-deprecated-copy" "-Wno-unused-parameter" "-Wno-sign-compare" "-Wno-comment" "-Wno-unused-variable" "-Wno-ignored-qualifiers" "-Wno-return-type-c-linkage" "-o" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/1a5837e1dc2eab56-imgproc.o" "-c" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/imgproc.cpp"
+exit status: 0
+running: "c++" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I" "/home/Infinite-Storage-Glitch/cargo_home/registry/src/index.crates.io-6f17d22bba15001f/opencv-0.75.0/src_cpp" "-I" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out" "-I" "." "-I" "/usr/include/opencv4" "-Wall" "-Wextra" "-std=c++11" "-Wno-deprecated-declarations" "-Wno-deprecated-copy" "-Wno-unused-parameter" "-Wno-sign-compare" "-Wno-comment" "-Wno-unused-variable" "-Wno-ignored-qualifiers" "-Wno-return-type-c-linkage" "-o" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/1a5837e1dc2eab56-intensity_transform.o" "-c" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/intensity_transform.cpp"
+exit status: 0
+running: "c++" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I" "/home/Infinite-Storage-Glitch/cargo_home/registry/src/index.crates.io-6f17d22bba15001f/opencv-0.75.0/src_cpp" "-I" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out" "-I" "." "-I" "/usr/include/opencv4" "-Wall" "-Wextra" "-std=c++11" "-Wno-deprecated-declarations" "-Wno-deprecated-copy" "-Wno-unused-parameter" "-Wno-sign-compare" "-Wno-comment" "-Wno-unused-variable" "-Wno-ignored-qualifiers" "-Wno-return-type-c-linkage" "-o" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/1a5837e1dc2eab56-line_descriptor.o" "-c" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/line_descriptor.cpp"
+exit status: 0
+running: "c++" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I" "/home/Infinite-Storage-Glitch/cargo_home/registry/src/index.crates.io-6f17d22bba15001f/opencv-0.75.0/src_cpp" "-I" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out" "-I" "." "-I" "/usr/include/opencv4" "-Wall" "-Wextra" "-std=c++11" "-Wno-deprecated-declarations" "-Wno-deprecated-copy" "-Wno-unused-parameter" "-Wno-sign-compare" "-Wno-comment" "-Wno-unused-variable" "-Wno-ignored-qualifiers" "-Wno-return-type-c-linkage" "-o" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/1a5837e1dc2eab56-mcc.o" "-c" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/mcc.cpp"
+exit status: 0
+running: "c++" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I" "/home/Infinite-Storage-Glitch/cargo_home/registry/src/index.crates.io-6f17d22bba15001f/opencv-0.75.0/src_cpp" "-I" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out" "-I" "." "-I" "/usr/include/opencv4" "-Wall" "-Wextra" "-std=c++11" "-Wno-deprecated-declarations" "-Wno-deprecated-copy" "-Wno-unused-parameter" "-Wno-sign-compare" "-Wno-comment" "-Wno-unused-variable" "-Wno-ignored-qualifiers" "-Wno-return-type-c-linkage" "-o" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/1a5837e1dc2eab56-ml.o" "-c" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/ml.cpp"
+cargo:warning=/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/line_descriptor.cpp: In function 'void cv_line_descriptor_KeyLine_KeyLine(Result<cv::line_descriptor::KeyLine>*)':
+cargo:warning=/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/line_descriptor.cpp:341:54: warning: 'ret.cv::line_descriptor::KeyLine::ePointInOctaveX' is used uninitialized [-Wuninitialized]
+cargo:warning=  341 |                         cv::line_descriptor::KeyLine ret;
+cargo:warning=      |                                                      ^~~
+cargo:warning=/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/line_descriptor.cpp:341:54: warning: 'ret.cv::line_descriptor::KeyLine::ePointInOctaveY' is used uninitialized [-Wuninitialized]
+cargo:warning=/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/line_descriptor.cpp:341:54: warning: 'ret.cv::line_descriptor::KeyLine::response' is used uninitialized [-Wuninitialized]
+cargo:warning=/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/line_descriptor.cpp:341:54: warning: 'ret.cv::line_descriptor::KeyLine::size' is used uninitialized [-Wuninitialized]
+cargo:warning=/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/line_descriptor.cpp:341:54: warning: 'ret.cv::line_descriptor::KeyLine::startPointX' is used uninitialized [-Wuninitialized]
+cargo:warning=/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/line_descriptor.cpp:341:54: warning: 'ret.cv::line_descriptor::KeyLine::startPointY' is used uninitialized [-Wuninitialized]
+cargo:warning=/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/line_descriptor.cpp:341:54: warning: 'ret.cv::line_descriptor::KeyLine::endPointX' is used uninitialized [-Wuninitialized]
+cargo:warning=/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/line_descriptor.cpp:341:54: warning: 'ret.cv::line_descriptor::KeyLine::endPointY' is used uninitialized [-Wuninitialized]
+cargo:warning=/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/line_descriptor.cpp:341:54: warning: 'ret.cv::line_descriptor::KeyLine::sPointInOctaveX' is used uninitialized [-Wuninitialized]
+cargo:warning=/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/line_descriptor.cpp:341:54: warning: 'ret.cv::line_descriptor::KeyLine::sPointInOctaveY' is used uninitialized [-Wuninitialized]
+cargo:warning=/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/line_descriptor.cpp:341:54: warning: 'ret.cv::line_descriptor::KeyLine::class_id' is used uninitialized [-Wuninitialized]
+cargo:warning=/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/line_descriptor.cpp:341:54: warning: 'ret.cv::line_descriptor::KeyLine::octave' is used uninitialized [-Wuninitialized]
+cargo:warning=In file included from /usr/include/opencv4/opencv2/line_descriptor.hpp:45,
+cargo:warning=                 from /home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/line_descriptor.cpp:2:
+cargo:warning=/usr/include/opencv4/opencv2/line_descriptor/descriptor.hpp:104:28: warning: 'ret.cv::line_descriptor::KeyLine::angle' is used uninitialized [-Wuninitialized]
+cargo:warning=  104 | struct CV_EXPORTS_W_SIMPLE KeyLine
+cargo:warning=      |                            ^~~~~~~
+cargo:warning=/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/line_descriptor.cpp:341:54: note: 'ret.cv::line_descriptor::KeyLine::angle' was declared here
+cargo:warning=  341 |                         cv::line_descriptor::KeyLine ret;
+cargo:warning=      |                                                      ^~~
+cargo:warning=In file included from /usr/include/opencv4/opencv2/line_descriptor.hpp:45,
+cargo:warning=                 from /home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/line_descriptor.cpp:2:
+cargo:warning=/usr/include/opencv4/opencv2/line_descriptor/descriptor.hpp:104:28: warning: 'ret.cv::line_descriptor::KeyLine::lineLength' is used uninitialized [-Wuninitialized]
+cargo:warning=  104 | struct CV_EXPORTS_W_SIMPLE KeyLine
+cargo:warning=      |                            ^~~~~~~
+cargo:warning=/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/line_descriptor.cpp:341:54: note: 'ret.cv::line_descriptor::KeyLine::lineLength' was declared here
+cargo:warning=  341 |                         cv::line_descriptor::KeyLine ret;
+cargo:warning=      |                                                      ^~~
+cargo:warning=In file included from /usr/include/opencv4/opencv2/line_descriptor.hpp:45,
+cargo:warning=                 from /home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/line_descriptor.cpp:2:
+cargo:warning=/usr/include/opencv4/opencv2/line_descriptor/descriptor.hpp:104:28: warning: 'ret.cv::line_descriptor::KeyLine::numOfPixels' is used uninitialized [-Wuninitialized]
+cargo:warning=  104 | struct CV_EXPORTS_W_SIMPLE KeyLine
+cargo:warning=      |                            ^~~~~~~
+cargo:warning=/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/line_descriptor.cpp:341:54: note: 'ret.cv::line_descriptor::KeyLine::numOfPixels' was declared here
+cargo:warning=  341 |                         cv::line_descriptor::KeyLine ret;
+cargo:warning=      |                                                      ^~~
+exit status: 0
+running: "c++" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I" "/home/Infinite-Storage-Glitch/cargo_home/registry/src/index.crates.io-6f17d22bba15001f/opencv-0.75.0/src_cpp" "-I" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out" "-I" "." "-I" "/usr/include/opencv4" "-Wall" "-Wextra" "-std=c++11" "-Wno-deprecated-declarations" "-Wno-deprecated-copy" "-Wno-unused-parameter" "-Wno-sign-compare" "-Wno-comment" "-Wno-unused-variable" "-Wno-ignored-qualifiers" "-Wno-return-type-c-linkage" "-o" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/1a5837e1dc2eab56-objdetect.o" "-c" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/objdetect.cpp"
+cargo:warning=At global scope:
+cargo:warning=cc1plus: note: unrecognized command-line option '-Wno-return-type-c-linkage' may have been intended to silence earlier diagnostics
+exit status: 0
+running: "c++" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I" "/home/Infinite-Storage-Glitch/cargo_home/registry/src/index.crates.io-6f17d22bba15001f/opencv-0.75.0/src_cpp" "-I" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out" "-I" "." "-I" "/usr/include/opencv4" "-Wall" "-Wextra" "-std=c++11" "-Wno-deprecated-declarations" "-Wno-deprecated-copy" "-Wno-unused-parameter" "-Wno-sign-compare" "-Wno-comment" "-Wno-unused-variable" "-Wno-ignored-qualifiers" "-Wno-return-type-c-linkage" "-o" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/1a5837e1dc2eab56-optflow.o" "-c" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/optflow.cpp"
+exit status: 0
+running: "c++" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I" "/home/Infinite-Storage-Glitch/cargo_home/registry/src/index.crates.io-6f17d22bba15001f/opencv-0.75.0/src_cpp" "-I" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out" "-I" "." "-I" "/usr/include/opencv4" "-Wall" "-Wextra" "-std=c++11" "-Wno-deprecated-declarations" "-Wno-deprecated-copy" "-Wno-unused-parameter" "-Wno-sign-compare" "-Wno-comment" "-Wno-unused-variable" "-Wno-ignored-qualifiers" "-Wno-return-type-c-linkage" "-o" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/1a5837e1dc2eab56-phase_unwrapping.o" "-c" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/phase_unwrapping.cpp"
+exit status: 0
+running: "c++" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I" "/home/Infinite-Storage-Glitch/cargo_home/registry/src/index.crates.io-6f17d22bba15001f/opencv-0.75.0/src_cpp" "-I" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out" "-I" "." "-I" "/usr/include/opencv4" "-Wall" "-Wextra" "-std=c++11" "-Wno-deprecated-declarations" "-Wno-deprecated-copy" "-Wno-unused-parameter" "-Wno-sign-compare" "-Wno-comment" "-Wno-unused-variable" "-Wno-ignored-qualifiers" "-Wno-return-type-c-linkage" "-o" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/1a5837e1dc2eab56-photo.o" "-c" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/photo.cpp"
+exit status: 0
+running: "c++" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I" "/home/Infinite-Storage-Glitch/cargo_home/registry/src/index.crates.io-6f17d22bba15001f/opencv-0.75.0/src_cpp" "-I" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out" "-I" "." "-I" "/usr/include/opencv4" "-Wall" "-Wextra" "-std=c++11" "-Wno-deprecated-declarations" "-Wno-deprecated-copy" "-Wno-unused-parameter" "-Wno-sign-compare" "-Wno-comment" "-Wno-unused-variable" "-Wno-ignored-qualifiers" "-Wno-return-type-c-linkage" "-o" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/1a5837e1dc2eab56-plot.o" "-c" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/plot.cpp"
+exit status: 0
+running: "c++" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I" "/home/Infinite-Storage-Glitch/cargo_home/registry/src/index.crates.io-6f17d22bba15001f/opencv-0.75.0/src_cpp" "-I" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out" "-I" "." "-I" "/usr/include/opencv4" "-Wall" "-Wextra" "-std=c++11" "-Wno-deprecated-declarations" "-Wno-deprecated-copy" "-Wno-unused-parameter" "-Wno-sign-compare" "-Wno-comment" "-Wno-unused-variable" "-Wno-ignored-qualifiers" "-Wno-return-type-c-linkage" "-o" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/1a5837e1dc2eab56-quality.o" "-c" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/quality.cpp"
+exit status: 0
+running: "c++" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I" "/home/Infinite-Storage-Glitch/cargo_home/registry/src/index.crates.io-6f17d22bba15001f/opencv-0.75.0/src_cpp" "-I" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out" "-I" "." "-I" "/usr/include/opencv4" "-Wall" "-Wextra" "-std=c++11" "-Wno-deprecated-declarations" "-Wno-deprecated-copy" "-Wno-unused-parameter" "-Wno-sign-compare" "-Wno-comment" "-Wno-unused-variable" "-Wno-ignored-qualifiers" "-Wno-return-type-c-linkage" "-o" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/1a5837e1dc2eab56-rapid.o" "-c" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/rapid.cpp"
+exit status: 0
+running: "c++" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I" "/home/Infinite-Storage-Glitch/cargo_home/registry/src/index.crates.io-6f17d22bba15001f/opencv-0.75.0/src_cpp" "-I" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out" "-I" "." "-I" "/usr/include/opencv4" "-Wall" "-Wextra" "-std=c++11" "-Wno-deprecated-declarations" "-Wno-deprecated-copy" "-Wno-unused-parameter" "-Wno-sign-compare" "-Wno-comment" "-Wno-unused-variable" "-Wno-ignored-qualifiers" "-Wno-return-type-c-linkage" "-o" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/1a5837e1dc2eab56-rgbd.o" "-c" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/rgbd.cpp"
+exit status: 0
+running: "c++" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I" "/home/Infinite-Storage-Glitch/cargo_home/registry/src/index.crates.io-6f17d22bba15001f/opencv-0.75.0/src_cpp" "-I" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out" "-I" "." "-I" "/usr/include/opencv4" "-Wall" "-Wextra" "-std=c++11" "-Wno-deprecated-declarations" "-Wno-deprecated-copy" "-Wno-unused-parameter" "-Wno-sign-compare" "-Wno-comment" "-Wno-unused-variable" "-Wno-ignored-qualifiers" "-Wno-return-type-c-linkage" "-o" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/1a5837e1dc2eab56-saliency.o" "-c" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/saliency.cpp"
+exit status: 0
+running: "c++" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I" "/home/Infinite-Storage-Glitch/cargo_home/registry/src/index.crates.io-6f17d22bba15001f/opencv-0.75.0/src_cpp" "-I" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out" "-I" "." "-I" "/usr/include/opencv4" "-Wall" "-Wextra" "-std=c++11" "-Wno-deprecated-declarations" "-Wno-deprecated-copy" "-Wno-unused-parameter" "-Wno-sign-compare" "-Wno-comment" "-Wno-unused-variable" "-Wno-ignored-qualifiers" "-Wno-return-type-c-linkage" "-o" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/1a5837e1dc2eab56-shape.o" "-c" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/shape.cpp"
+exit status: 0
+running: "c++" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I" "/home/Infinite-Storage-Glitch/cargo_home/registry/src/index.crates.io-6f17d22bba15001f/opencv-0.75.0/src_cpp" "-I" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out" "-I" "." "-I" "/usr/include/opencv4" "-Wall" "-Wextra" "-std=c++11" "-Wno-deprecated-declarations" "-Wno-deprecated-copy" "-Wno-unused-parameter" "-Wno-sign-compare" "-Wno-comment" "-Wno-unused-variable" "-Wno-ignored-qualifiers" "-Wno-return-type-c-linkage" "-o" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/1a5837e1dc2eab56-stereo.o" "-c" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/stereo.cpp"
+exit status: 0
+running: "c++" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I" "/home/Infinite-Storage-Glitch/cargo_home/registry/src/index.crates.io-6f17d22bba15001f/opencv-0.75.0/src_cpp" "-I" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out" "-I" "." "-I" "/usr/include/opencv4" "-Wall" "-Wextra" "-std=c++11" "-Wno-deprecated-declarations" "-Wno-deprecated-copy" "-Wno-unused-parameter" "-Wno-sign-compare" "-Wno-comment" "-Wno-unused-variable" "-Wno-ignored-qualifiers" "-Wno-return-type-c-linkage" "-o" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/1a5837e1dc2eab56-stitching.o" "-c" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/stitching.cpp"
+cargo:warning=/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/rgbd.cpp: In function 'void cv_kinfu_Intr_Reprojector_Reprojector(Result<cv::kinfu::Intr::Reprojector>*)':
+cargo:warning=/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/rgbd.cpp:595:54: warning: 'ret.cv::kinfu::Intr::Reprojector::fxinv' is used uninitialized [-Wuninitialized]
+cargo:warning=  595 |                         cv::kinfu::Intr::Reprojector ret;
+cargo:warning=      |                                                      ^~~
+cargo:warning=/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/rgbd.cpp:595:54: warning: 'ret.cv::kinfu::Intr::Reprojector::fyinv' is used uninitialized [-Wuninitialized]
+cargo:warning=/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/rgbd.cpp:595:54: warning: 'ret.cv::kinfu::Intr::Reprojector::cx' is used uninitialized [-Wuninitialized]
+cargo:warning=/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/rgbd.cpp:595:54: warning: 'ret.cv::kinfu::Intr::Reprojector::cy' is used uninitialized [-Wuninitialized]
+exit status: 0
+running: "c++" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I" "/home/Infinite-Storage-Glitch/cargo_home/registry/src/index.crates.io-6f17d22bba15001f/opencv-0.75.0/src_cpp" "-I" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out" "-I" "." "-I" "/usr/include/opencv4" "-Wall" "-Wextra" "-std=c++11" "-Wno-deprecated-declarations" "-Wno-deprecated-copy" "-Wno-unused-parameter" "-Wno-sign-compare" "-Wno-comment" "-Wno-unused-variable" "-Wno-ignored-qualifiers" "-Wno-return-type-c-linkage" "-o" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/1a5837e1dc2eab56-structured_light.o" "-c" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/structured_light.cpp"
+exit status: 0
+running: "c++" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I" "/home/Infinite-Storage-Glitch/cargo_home/registry/src/index.crates.io-6f17d22bba15001f/opencv-0.75.0/src_cpp" "-I" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out" "-I" "." "-I" "/usr/include/opencv4" "-Wall" "-Wextra" "-std=c++11" "-Wno-deprecated-declarations" "-Wno-deprecated-copy" "-Wno-unused-parameter" "-Wno-sign-compare" "-Wno-comment" "-Wno-unused-variable" "-Wno-ignored-qualifiers" "-Wno-return-type-c-linkage" "-o" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/1a5837e1dc2eab56-superres.o" "-c" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/superres.cpp"
+cargo:warning=At global scope:
+cargo:warning=cc1plus: note: unrecognized command-line option '-Wno-return-type-c-linkage' may have been intended to silence earlier diagnostics
+exit status: 0
+running: "c++" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I" "/home/Infinite-Storage-Glitch/cargo_home/registry/src/index.crates.io-6f17d22bba15001f/opencv-0.75.0/src_cpp" "-I" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out" "-I" "." "-I" "/usr/include/opencv4" "-Wall" "-Wextra" "-std=c++11" "-Wno-deprecated-declarations" "-Wno-deprecated-copy" "-Wno-unused-parameter" "-Wno-sign-compare" "-Wno-comment" "-Wno-unused-variable" "-Wno-ignored-qualifiers" "-Wno-return-type-c-linkage" "-o" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/1a5837e1dc2eab56-surface_matching.o" "-c" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/surface_matching.cpp"
+exit status: 0
+running: "c++" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I" "/home/Infinite-Storage-Glitch/cargo_home/registry/src/index.crates.io-6f17d22bba15001f/opencv-0.75.0/src_cpp" "-I" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out" "-I" "." "-I" "/usr/include/opencv4" "-Wall" "-Wextra" "-std=c++11" "-Wno-deprecated-declarations" "-Wno-deprecated-copy" "-Wno-unused-parameter" "-Wno-sign-compare" "-Wno-comment" "-Wno-unused-variable" "-Wno-ignored-qualifiers" "-Wno-return-type-c-linkage" "-o" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/1a5837e1dc2eab56-text.o" "-c" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/text.cpp"
+exit status: 0
+running: "c++" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I" "/home/Infinite-Storage-Glitch/cargo_home/registry/src/index.crates.io-6f17d22bba15001f/opencv-0.75.0/src_cpp" "-I" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out" "-I" "." "-I" "/usr/include/opencv4" "-Wall" "-Wextra" "-std=c++11" "-Wno-deprecated-declarations" "-Wno-deprecated-copy" "-Wno-unused-parameter" "-Wno-sign-compare" "-Wno-comment" "-Wno-unused-variable" "-Wno-ignored-qualifiers" "-Wno-return-type-c-linkage" "-o" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/1a5837e1dc2eab56-tracking.o" "-c" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/tracking.cpp"
+exit status: 0
+running: "c++" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I" "/home/Infinite-Storage-Glitch/cargo_home/registry/src/index.crates.io-6f17d22bba15001f/opencv-0.75.0/src_cpp" "-I" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out" "-I" "." "-I" "/usr/include/opencv4" "-Wall" "-Wextra" "-std=c++11" "-Wno-deprecated-declarations" "-Wno-deprecated-copy" "-Wno-unused-parameter" "-Wno-sign-compare" "-Wno-comment" "-Wno-unused-variable" "-Wno-ignored-qualifiers" "-Wno-return-type-c-linkage" "-o" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/1a5837e1dc2eab56-video.o" "-c" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/video.cpp"
+exit status: 0
+running: "c++" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I" "/home/Infinite-Storage-Glitch/cargo_home/registry/src/index.crates.io-6f17d22bba15001f/opencv-0.75.0/src_cpp" "-I" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out" "-I" "." "-I" "/usr/include/opencv4" "-Wall" "-Wextra" "-std=c++11" "-Wno-deprecated-declarations" "-Wno-deprecated-copy" "-Wno-unused-parameter" "-Wno-sign-compare" "-Wno-comment" "-Wno-unused-variable" "-Wno-ignored-qualifiers" "-Wno-return-type-c-linkage" "-o" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/1a5837e1dc2eab56-videoio.o" "-c" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/videoio.cpp"
+exit status: 0
+running: "c++" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I" "/home/Infinite-Storage-Glitch/cargo_home/registry/src/index.crates.io-6f17d22bba15001f/opencv-0.75.0/src_cpp" "-I" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out" "-I" "." "-I" "/usr/include/opencv4" "-Wall" "-Wextra" "-std=c++11" "-Wno-deprecated-declarations" "-Wno-deprecated-copy" "-Wno-unused-parameter" "-Wno-sign-compare" "-Wno-comment" "-Wno-unused-variable" "-Wno-ignored-qualifiers" "-Wno-return-type-c-linkage" "-o" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/1a5837e1dc2eab56-videostab.o" "-c" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/videostab.cpp"
+exit status: 0
+running: "c++" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I" "/home/Infinite-Storage-Glitch/cargo_home/registry/src/index.crates.io-6f17d22bba15001f/opencv-0.75.0/src_cpp" "-I" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out" "-I" "." "-I" "/usr/include/opencv4" "-Wall" "-Wextra" "-std=c++11" "-Wno-deprecated-declarations" "-Wno-deprecated-copy" "-Wno-unused-parameter" "-Wno-sign-compare" "-Wno-comment" "-Wno-unused-variable" "-Wno-ignored-qualifiers" "-Wno-return-type-c-linkage" "-o" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/1a5837e1dc2eab56-viz.o" "-c" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/viz.cpp"
+exit status: 0
+running: "c++" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I" "/home/Infinite-Storage-Glitch/cargo_home/registry/src/index.crates.io-6f17d22bba15001f/opencv-0.75.0/src_cpp" "-I" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out" "-I" "." "-I" "/usr/include/opencv4" "-Wall" "-Wextra" "-std=c++11" "-Wno-deprecated-declarations" "-Wno-deprecated-copy" "-Wno-unused-parameter" "-Wno-sign-compare" "-Wno-comment" "-Wno-unused-variable" "-Wno-ignored-qualifiers" "-Wno-return-type-c-linkage" "-o" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/1a5837e1dc2eab56-wechat_qrcode.o" "-c" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/wechat_qrcode.cpp"
+exit status: 0
+running: "c++" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I" "/home/Infinite-Storage-Glitch/cargo_home/registry/src/index.crates.io-6f17d22bba15001f/opencv-0.75.0/src_cpp" "-I" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out" "-I" "." "-I" "/usr/include/opencv4" "-Wall" "-Wextra" "-std=c++11" "-Wno-deprecated-declarations" "-Wno-deprecated-copy" "-Wno-unused-parameter" "-Wno-sign-compare" "-Wno-comment" "-Wno-unused-variable" "-Wno-ignored-qualifiers" "-Wno-return-type-c-linkage" "-o" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/1a5837e1dc2eab56-ximgproc.o" "-c" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/ximgproc.cpp"
+exit status: 0
+running: "c++" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I" "/home/Infinite-Storage-Glitch/cargo_home/registry/src/index.crates.io-6f17d22bba15001f/opencv-0.75.0/src_cpp" "-I" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out" "-I" "." "-I" "/usr/include/opencv4" "-Wall" "-Wextra" "-std=c++11" "-Wno-deprecated-declarations" "-Wno-deprecated-copy" "-Wno-unused-parameter" "-Wno-sign-compare" "-Wno-comment" "-Wno-unused-variable" "-Wno-ignored-qualifiers" "-Wno-return-type-c-linkage" "-o" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/1a5837e1dc2eab56-xobjdetect.o" "-c" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/xobjdetect.cpp"
+exit status: 0
+running: "c++" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I" "/home/Infinite-Storage-Glitch/cargo_home/registry/src/index.crates.io-6f17d22bba15001f/opencv-0.75.0/src_cpp" "-I" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out" "-I" "." "-I" "/usr/include/opencv4" "-Wall" "-Wextra" "-std=c++11" "-Wno-deprecated-declarations" "-Wno-deprecated-copy" "-Wno-unused-parameter" "-Wno-sign-compare" "-Wno-comment" "-Wno-unused-variable" "-Wno-ignored-qualifiers" "-Wno-return-type-c-linkage" "-o" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/1a5837e1dc2eab56-xphoto.o" "-c" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/xphoto.cpp"
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+cargo:rerun-if-env-changed=AR_x86_64-unknown-linux-gnu
+AR_x86_64-unknown-linux-gnu = None
+cargo:rerun-if-env-changed=AR_x86_64_unknown_linux_gnu
+AR_x86_64_unknown_linux_gnu = None
+cargo:rerun-if-env-changed=HOST_AR
+HOST_AR = None
+cargo:rerun-if-env-changed=AR
+AR = None
+running: ZERO_AR_DATE="1" "ar" "cq" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/libocvrs.a" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/1a5837e1dc2eab56-alphamat.o" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/1a5837e1dc2eab56-aruco.o" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/1a5837e1dc2eab56-barcode.o" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/1a5837e1dc2eab56-bgsegm.o" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/1a5837e1dc2eab56-bioinspired.o" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/1a5837e1dc2eab56-calib3d.o" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/1a5837e1dc2eab56-ccalib.o" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/1a5837e1dc2eab56-core.o" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/1060d6a155a38723-manual-core.o" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/1a5837e1dc2eab56-dnn.o" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/1060d6a155a38723-manual-dnn.o" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/1a5837e1dc2eab56-dnn_superres.o" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/1a5837e1dc2eab56-dpm.o" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/1a5837e1dc2eab56-face.o" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/1a5837e1dc2eab56-features2d.o" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/1060d6a155a38723-manual-features2d.o" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/1a5837e1dc2eab56-flann.o" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/1a5837e1dc2eab56-freetype.o" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/1a5837e1dc2eab56-fuzzy.o" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/1a5837e1dc2eab56-hdf.o" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/1a5837e1dc2eab56-hfs.o" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/1a5837e1dc2eab56-highgui.o" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/1a5837e1dc2eab56-img_hash.o" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/1a5837e1dc2eab56-imgcodecs.o" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/1a5837e1dc2eab56-imgproc.o" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/1a5837e1dc2eab56-intensity_transform.o" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/1a5837e1dc2eab56-line_descriptor.o" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/1a5837e1dc2eab56-mcc.o" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/1a5837e1dc2eab56-ml.o" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/1a5837e1dc2eab56-objdetect.o" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/1a5837e1dc2eab56-optflow.o" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/1a5837e1dc2eab56-phase_unwrapping.o" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/1a5837e1dc2eab56-photo.o" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/1a5837e1dc2eab56-plot.o" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/1a5837e1dc2eab56-quality.o" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/1a5837e1dc2eab56-rapid.o" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/1a5837e1dc2eab56-rgbd.o" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/1a5837e1dc2eab56-saliency.o" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/1a5837e1dc2eab56-shape.o" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/1a5837e1dc2eab56-stereo.o" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/1a5837e1dc2eab56-stitching.o" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/1a5837e1dc2eab56-structured_light.o" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/1a5837e1dc2eab56-superres.o" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/1a5837e1dc2eab56-surface_matching.o" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/1a5837e1dc2eab56-text.o" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/1a5837e1dc2eab56-tracking.o" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/1a5837e1dc2eab56-video.o" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/1a5837e1dc2eab56-videoio.o" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/1a5837e1dc2eab56-videostab.o" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/1a5837e1dc2eab56-viz.o" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/1a5837e1dc2eab56-wechat_qrcode.o" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/1a5837e1dc2eab56-ximgproc.o" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/1a5837e1dc2eab56-xobjdetect.o" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/1a5837e1dc2eab56-xphoto.o"
+exit status: 0
+running: "ar" "s" "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/libocvrs.a"
+exit status: 0
+cargo:rustc-link-lib=static=ocvrs
+cargo:rustc-link-search=native=/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out
+cargo:rerun-if-env-changed=CXXSTDLIB_x86_64-unknown-linux-gnu
+CXXSTDLIB_x86_64-unknown-linux-gnu = None
+cargo:rerun-if-env-changed=CXXSTDLIB_x86_64_unknown_linux_gnu
+CXXSTDLIB_x86_64_unknown_linux_gnu = None
+cargo:rerun-if-env-changed=HOST_CXXSTDLIB
+HOST_CXXSTDLIB = None
+cargo:rerun-if-env-changed=CXXSTDLIB
+CXXSTDLIB = None
+cargo:rustc-link-lib=stdc++
+cargo:rustc-link-search=/usr/lib/x86_64-linux-gnu
+cargo:rustc-link-lib=opencv_stitching
+cargo:rustc-link-lib=opencv_alphamat
+cargo:rustc-link-lib=opencv_aruco
+cargo:rustc-link-lib=opencv_barcode
+cargo:rustc-link-lib=opencv_bgsegm
+cargo:rustc-link-lib=opencv_bioinspired
+cargo:rustc-link-lib=opencv_ccalib
+cargo:rustc-link-lib=opencv_dnn_objdetect
+cargo:rustc-link-lib=opencv_dnn_superres
+cargo:rustc-link-lib=opencv_dpm
+cargo:rustc-link-lib=opencv_face
+cargo:rustc-link-lib=opencv_freetype
+cargo:rustc-link-lib=opencv_fuzzy
+cargo:rustc-link-lib=opencv_hdf
+cargo:rustc-link-lib=opencv_hfs
+cargo:rustc-link-lib=opencv_img_hash
+cargo:rustc-link-lib=opencv_intensity_transform
+cargo:rustc-link-lib=opencv_line_descriptor
+cargo:rustc-link-lib=opencv_mcc
+cargo:rustc-link-lib=opencv_quality
+cargo:rustc-link-lib=opencv_rapid
+cargo:rustc-link-lib=opencv_reg
+cargo:rustc-link-lib=opencv_rgbd
+cargo:rustc-link-lib=opencv_saliency
+cargo:rustc-link-lib=opencv_shape
+cargo:rustc-link-lib=opencv_stereo
+cargo:rustc-link-lib=opencv_structured_light
+cargo:rustc-link-lib=opencv_phase_unwrapping
+cargo:rustc-link-lib=opencv_superres
+cargo:rustc-link-lib=opencv_optflow
+cargo:rustc-link-lib=opencv_surface_matching
+cargo:rustc-link-lib=opencv_tracking
+cargo:rustc-link-lib=opencv_highgui
+cargo:rustc-link-lib=opencv_datasets
+cargo:rustc-link-lib=opencv_text
+cargo:rustc-link-lib=opencv_plot
+cargo:rustc-link-lib=opencv_ml
+cargo:rustc-link-lib=opencv_videostab
+cargo:rustc-link-lib=opencv_videoio
+cargo:rustc-link-lib=opencv_viz
+cargo:rustc-link-lib=opencv_wechat_qrcode
+cargo:rustc-link-lib=opencv_ximgproc
+cargo:rustc-link-lib=opencv_video
+cargo:rustc-link-lib=opencv_xobjdetect
+cargo:rustc-link-lib=opencv_objdetect
+cargo:rustc-link-lib=opencv_calib3d
+cargo:rustc-link-lib=opencv_imgcodecs
+cargo:rustc-link-lib=opencv_features2d
+cargo:rustc-link-lib=opencv_dnn
+cargo:rustc-link-lib=opencv_flann
+cargo:rustc-link-lib=opencv_xphoto
+cargo:rustc-link-lib=opencv_photo
+cargo:rustc-link-lib=opencv_imgproc
+cargo:rustc-link-lib=opencv_core

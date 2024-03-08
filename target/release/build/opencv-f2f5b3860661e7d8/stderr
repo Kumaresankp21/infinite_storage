@@ -1,0 +1,901 @@
+=== Available jobs from the environment created jobserver is: 0 or there is an error reading that value
+=== Creating a new job server with num_jobs: 5
+=== Crate version: Some("0.75.0")
+=== Environment configuration:
+===   OPENCV_PACKAGE_NAME = None
+===   OPENCV_PKGCONFIG_NAME = None
+===   OPENCV_CMAKE_NAME = None
+===   OPENCV_CMAKE_BIN = None
+===   OPENCV_VCPKG_NAME = None
+===   OPENCV_LINK_LIBS = None
+===   OPENCV_LINK_PATHS = None
+===   OPENCV_INCLUDE_PATHS = None
+===   OPENCV_DISABLE_PROBES = None
+===   CMAKE_PREFIX_PATH = None
+===   OpenCV_DIR = None
+===   PKG_CONFIG_PATH = None
+===   VCPKG_ROOT = None
+===   VCPKGRS_DYNAMIC = None
+===   PATH = Some("/home/Infinite-Storage-Glitch/cargo_home/bin:/root/.cargo/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin")
+=== Enabled features:
+===   ALPHAMAT
+===   ARUCO
+===   ARUCO_DETECTOR
+===   BARCODE
+===   BGSEGM
+===   BIOINSPIRED
+===   CALIB3D
+===   CCALIB
+===   CUDAARITHM
+===   CUDABGSEGM
+===   CUDACODEC
+===   CUDAFEATURES2D
+===   CUDAFILTERS
+===   CUDAIMGPROC
+===   CUDAOBJDETECT
+===   CUDAOPTFLOW
+===   CUDASTEREO
+===   CUDAWARPING
+===   CVV
+===   DEFAULT
+===   DNN
+===   DNN_SUPERRES
+===   DPM
+===   FACE
+===   FEATURES2D
+===   FLANN
+===   FREETYPE
+===   FUZZY
+===   GAPI
+===   HDF
+===   HFS
+===   HIGHGUI
+===   IMGCODECS
+===   IMGPROC
+===   IMG_HASH
+===   INTENSITY_TRANSFORM
+===   LINE_DESCRIPTOR
+===   MCC
+===   ML
+===   OBJDETECT
+===   OPTFLOW
+===   OVIS
+===   PHASE_UNWRAPPING
+===   PHOTO
+===   PLOT
+===   QUALITY
+===   RAPID
+===   RGBD
+===   SALIENCY
+===   SFM
+===   SHAPE
+===   STEREO
+===   STITCHING
+===   STRUCTURED_LIGHT
+===   SUPERRES
+===   SURFACE_MATCHING
+===   TEXT
+===   TRACKING
+===   VIDEO
+===   VIDEOIO
+===   VIDEOSTAB
+===   VIZ
+===   WECHAT_QRCODE
+===   XFEATURES2D
+===   XIMGPROC
+===   XOBJDETECT
+===   XPHOTO
+=== Detected probe priority based on environment vars: pkg_config: false, cmake: false, vcpkg: false
+=== Probing the OpenCV library in the following order: environment, pkg_config, cmake, vcpkg_cmake, vcpkg
+=== Can't probe using: environment, continuing with other methods because: Some environment variables are missing
+=== Probing OpenCV library using pkg_config
+=== Successfully probed using: pkg_config
+=== OpenCV library configuration: Library {
+    include_paths: [
+        "/usr/include/opencv4",
+    ],
+    version: Version {
+        major: 4,
+        minor: 5,
+        patch: 4,
+    },
+    cargo_metadata: [
+        "cargo:rustc-link-search=/usr/lib/x86_64-linux-gnu",
+        "cargo:rustc-link-lib=opencv_stitching",
+        "cargo:rustc-link-lib=opencv_alphamat",
+        "cargo:rustc-link-lib=opencv_aruco",
+        "cargo:rustc-link-lib=opencv_barcode",
+        "cargo:rustc-link-lib=opencv_bgsegm",
+        "cargo:rustc-link-lib=opencv_bioinspired",
+        "cargo:rustc-link-lib=opencv_ccalib",
+        "cargo:rustc-link-lib=opencv_dnn_objdetect",
+        "cargo:rustc-link-lib=opencv_dnn_superres",
+        "cargo:rustc-link-lib=opencv_dpm",
+        "cargo:rustc-link-lib=opencv_face",
+        "cargo:rustc-link-lib=opencv_freetype",
+        "cargo:rustc-link-lib=opencv_fuzzy",
+        "cargo:rustc-link-lib=opencv_hdf",
+        "cargo:rustc-link-lib=opencv_hfs",
+        "cargo:rustc-link-lib=opencv_img_hash",
+        "cargo:rustc-link-lib=opencv_intensity_transform",
+        "cargo:rustc-link-lib=opencv_line_descriptor",
+        "cargo:rustc-link-lib=opencv_mcc",
+        "cargo:rustc-link-lib=opencv_quality",
+        "cargo:rustc-link-lib=opencv_rapid",
+        "cargo:rustc-link-lib=opencv_reg",
+        "cargo:rustc-link-lib=opencv_rgbd",
+        "cargo:rustc-link-lib=opencv_saliency",
+        "cargo:rustc-link-lib=opencv_shape",
+        "cargo:rustc-link-lib=opencv_stereo",
+        "cargo:rustc-link-lib=opencv_structured_light",
+        "cargo:rustc-link-lib=opencv_phase_unwrapping",
+        "cargo:rustc-link-lib=opencv_superres",
+        "cargo:rustc-link-lib=opencv_optflow",
+        "cargo:rustc-link-lib=opencv_surface_matching",
+        "cargo:rustc-link-lib=opencv_tracking",
+        "cargo:rustc-link-lib=opencv_highgui",
+        "cargo:rustc-link-lib=opencv_datasets",
+        "cargo:rustc-link-lib=opencv_text",
+        "cargo:rustc-link-lib=opencv_plot",
+        "cargo:rustc-link-lib=opencv_ml",
+        "cargo:rustc-link-lib=opencv_videostab",
+        "cargo:rustc-link-lib=opencv_videoio",
+        "cargo:rustc-link-lib=opencv_viz",
+        "cargo:rustc-link-lib=opencv_wechat_qrcode",
+        "cargo:rustc-link-lib=opencv_ximgproc",
+        "cargo:rustc-link-lib=opencv_video",
+        "cargo:rustc-link-lib=opencv_xobjdetect",
+        "cargo:rustc-link-lib=opencv_objdetect",
+        "cargo:rustc-link-lib=opencv_calib3d",
+        "cargo:rustc-link-lib=opencv_imgcodecs",
+        "cargo:rustc-link-lib=opencv_features2d",
+        "cargo:rustc-link-lib=opencv_dnn",
+        "cargo:rustc-link-lib=opencv_flann",
+        "cargo:rustc-link-lib=opencv_xphoto",
+        "cargo:rustc-link-lib=opencv_photo",
+        "cargo:rustc-link-lib=opencv_imgproc",
+        "cargo:rustc-link-lib=opencv_core",
+    ],
+}
+=== Detected OpenCV module header dir at: /usr/include/opencv4/opencv2
+=== Found OpenCV version: 4.5.4 in headers located at: /usr/include/opencv4
+=== Generating code in: /home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out
+=== Placing generated bindings into: /home/Infinite-Storage-Glitch/cargo_home/registry/src/index.crates.io-6f17d22bba15001f/opencv-0.75.0/src/opencv
+=== Using OpenCV headers from: /usr/include/opencv4
+=== Clang: Ubuntu clang version 14.0.0-1ubuntu1.1
+=== Clang command line args: [
+    "-isystem/usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11",
+    "-isystem/usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/x86_64-linux-gnu/c++/11",
+    "-isystem/usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/backward",
+    "-isystem/usr/lib/llvm-14/lib/clang/14.0.0/include",
+    "-isystem/usr/local/include",
+    "-isystem/usr/include/x86_64-linux-gnu",
+    "-isystem/usr/include",
+    "-I/usr/include/opencv4",
+    "-F/usr/include/opencv4",
+    "-I/home/Infinite-Storage-Glitch/cargo_home/registry/src/index.crates.io-6f17d22bba15001f/opencv-0.75.0/src_cpp",
+    "-F/home/Infinite-Storage-Glitch/cargo_home/registry/src/index.crates.io-6f17d22bba15001f/opencv-0.75.0/src_cpp",
+    "-DOCVRS_PARSING_HEADERS",
+    "-includeocvrs_ephemeral.hpp",
+    "-std=c++14",
+]
+=== Building binding-generator binary:
+===     Updating crates.io index
+===  Downloading crates ...
+===   Downloaded glob v0.3.0
+===   Downloaded regex v1.7.0
+===    Compiling glob v0.3.0
+===    Compiling libc v0.2.139
+===    Compiling memchr v2.5.0
+===    Compiling cfg-if v1.0.0
+===    Compiling libloading v0.7.4
+===    Compiling clang-sys v1.4.0
+===    Compiling regex-syntax v0.6.28
+===    Compiling dunce v1.0.3
+===    Compiling percent-encoding v2.2.0
+===    Compiling once_cell v1.17.0
+===    Compiling maplit v1.0.2
+===    Compiling aho-corasick v0.7.20
+===    Compiling regex v1.7.0
+===    Compiling clang v2.0.0
+===    Compiling opencv-binding-generator v0.53.0
+===     Finished release [optimized] target(s) in 38.58s
+=== Running: Command {
+    program: "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/release/binding-generator",
+    args: [
+        "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/release/binding-generator",
+        "/usr/include/opencv4",
+        "/home/Infinite-Storage-Glitch/cargo_home/registry/src/index.crates.io-6f17d22bba15001f/opencv-0.75.0/src_cpp",
+        "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out",
+        "alphamat",
+        "",
+    ],
+    create_pidfd: false,
+}
+=== Running: Command {
+    program: "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/release/binding-generator",
+    args: [
+        "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/release/binding-generator",
+        "/usr/include/opencv4",
+        "/home/Infinite-Storage-Glitch/cargo_home/registry/src/index.crates.io-6f17d22bba15001f/opencv-0.75.0/src_cpp",
+        "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out",
+        "aruco",
+        "",
+    ],
+    create_pidfd: false,
+}
+=== Running: Command {
+    program: "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/release/binding-generator",
+    args: [
+        "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/release/binding-generator",
+        "/usr/include/opencv4",
+        "/home/Infinite-Storage-Glitch/cargo_home/registry/src/index.crates.io-6f17d22bba15001f/opencv-0.75.0/src_cpp",
+        "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out",
+        "bgsegm",
+        "",
+    ],
+    create_pidfd: false,
+}
+=== Running: Command {
+    program: "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/release/binding-generator",
+    args: [
+        "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/release/binding-generator",
+        "/usr/include/opencv4",
+        "/home/Infinite-Storage-Glitch/cargo_home/registry/src/index.crates.io-6f17d22bba15001f/opencv-0.75.0/src_cpp",
+        "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out",
+        "barcode",
+        "",
+    ],
+    create_pidfd: false,
+}
+=== Running: Command {
+    program: "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/release/binding-generator",
+    args: [
+        "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/release/binding-generator",
+        "/usr/include/opencv4",
+        "/home/Infinite-Storage-Glitch/cargo_home/registry/src/index.crates.io-6f17d22bba15001f/opencv-0.75.0/src_cpp",
+        "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out",
+        "bioinspired",
+        "",
+    ],
+    create_pidfd: false,
+}
+=== Generated: alphamat
+=== Running: Command {
+    program: "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/release/binding-generator",
+    args: [
+        "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/release/binding-generator",
+        "/usr/include/opencv4",
+        "/home/Infinite-Storage-Glitch/cargo_home/registry/src/index.crates.io-6f17d22bba15001f/opencv-0.75.0/src_cpp",
+        "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out",
+        "calib3d",
+        "",
+    ],
+    create_pidfd: false,
+}
+=== Generated: barcode
+=== Running: Command {
+    program: "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/release/binding-generator",
+    args: [
+        "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/release/binding-generator",
+        "/usr/include/opencv4",
+        "/home/Infinite-Storage-Glitch/cargo_home/registry/src/index.crates.io-6f17d22bba15001f/opencv-0.75.0/src_cpp",
+        "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out",
+        "ccalib",
+        "",
+    ],
+    create_pidfd: false,
+}
+=== Generated: bioinspired
+=== Running: Command {
+    program: "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/release/binding-generator",
+    args: [
+        "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/release/binding-generator",
+        "/usr/include/opencv4",
+        "/home/Infinite-Storage-Glitch/cargo_home/registry/src/index.crates.io-6f17d22bba15001f/opencv-0.75.0/src_cpp",
+        "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out",
+        "core",
+        "",
+    ],
+    create_pidfd: false,
+}
+=== Generated: bgsegm
+=== Running: Command {
+    program: "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/release/binding-generator",
+    args: [
+        "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/release/binding-generator",
+        "/usr/include/opencv4",
+        "/home/Infinite-Storage-Glitch/cargo_home/registry/src/index.crates.io-6f17d22bba15001f/opencv-0.75.0/src_cpp",
+        "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out",
+        "dnn",
+        "",
+    ],
+    create_pidfd: false,
+}
+=== Generated: aruco
+=== Running: Command {
+    program: "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/release/binding-generator",
+    args: [
+        "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/release/binding-generator",
+        "/usr/include/opencv4",
+        "/home/Infinite-Storage-Glitch/cargo_home/registry/src/index.crates.io-6f17d22bba15001f/opencv-0.75.0/src_cpp",
+        "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out",
+        "dnn_superres",
+        "",
+    ],
+    create_pidfd: false,
+}
+=== Generated: calib3d
+=== Running: Command {
+    program: "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/release/binding-generator",
+    args: [
+        "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/release/binding-generator",
+        "/usr/include/opencv4",
+        "/home/Infinite-Storage-Glitch/cargo_home/registry/src/index.crates.io-6f17d22bba15001f/opencv-0.75.0/src_cpp",
+        "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out",
+        "dpm",
+        "",
+    ],
+    create_pidfd: false,
+}
+=== Generated: ccalib
+=== Running: Command {
+    program: "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/release/binding-generator",
+    args: [
+        "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/release/binding-generator",
+        "/usr/include/opencv4",
+        "/home/Infinite-Storage-Glitch/cargo_home/registry/src/index.crates.io-6f17d22bba15001f/opencv-0.75.0/src_cpp",
+        "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out",
+        "face",
+        "",
+    ],
+    create_pidfd: false,
+}
+=== Generated: dnn_superres
+=== Running: Command {
+    program: "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/release/binding-generator",
+    args: [
+        "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/release/binding-generator",
+        "/usr/include/opencv4",
+        "/home/Infinite-Storage-Glitch/cargo_home/registry/src/index.crates.io-6f17d22bba15001f/opencv-0.75.0/src_cpp",
+        "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out",
+        "features2d",
+        "",
+    ],
+    create_pidfd: false,
+}
+=== Generated: dnn
+=== Running: Command {
+    program: "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/release/binding-generator",
+    args: [
+        "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/release/binding-generator",
+        "/usr/include/opencv4",
+        "/home/Infinite-Storage-Glitch/cargo_home/registry/src/index.crates.io-6f17d22bba15001f/opencv-0.75.0/src_cpp",
+        "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out",
+        "flann",
+        "",
+    ],
+    create_pidfd: false,
+}
+=== Generated: core
+=== Running: Command {
+    program: "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/release/binding-generator",
+    args: [
+        "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/release/binding-generator",
+        "/usr/include/opencv4",
+        "/home/Infinite-Storage-Glitch/cargo_home/registry/src/index.crates.io-6f17d22bba15001f/opencv-0.75.0/src_cpp",
+        "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out",
+        "freetype",
+        "",
+    ],
+    create_pidfd: false,
+}
+=== Generated: dpm
+=== Running: Command {
+    program: "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/release/binding-generator",
+    args: [
+        "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/release/binding-generator",
+        "/usr/include/opencv4",
+        "/home/Infinite-Storage-Glitch/cargo_home/registry/src/index.crates.io-6f17d22bba15001f/opencv-0.75.0/src_cpp",
+        "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out",
+        "fuzzy",
+        "",
+    ],
+    create_pidfd: false,
+}
+=== Generated: face
+=== Running: Command {
+    program: "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/release/binding-generator",
+    args: [
+        "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/release/binding-generator",
+        "/usr/include/opencv4",
+        "/home/Infinite-Storage-Glitch/cargo_home/registry/src/index.crates.io-6f17d22bba15001f/opencv-0.75.0/src_cpp",
+        "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out",
+        "hdf",
+        "",
+    ],
+    create_pidfd: false,
+}
+=== Generated: features2d
+=== Running: Command {
+    program: "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/release/binding-generator",
+    args: [
+        "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/release/binding-generator",
+        "/usr/include/opencv4",
+        "/home/Infinite-Storage-Glitch/cargo_home/registry/src/index.crates.io-6f17d22bba15001f/opencv-0.75.0/src_cpp",
+        "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out",
+        "hfs",
+        "",
+    ],
+    create_pidfd: false,
+}
+=== Generated: flann
+=== Running: Command {
+    program: "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/release/binding-generator",
+    args: [
+        "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/release/binding-generator",
+        "/usr/include/opencv4",
+        "/home/Infinite-Storage-Glitch/cargo_home/registry/src/index.crates.io-6f17d22bba15001f/opencv-0.75.0/src_cpp",
+        "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out",
+        "highgui",
+        "",
+    ],
+    create_pidfd: false,
+}
+=== Generated: freetype
+=== Running: Command {
+    program: "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/release/binding-generator",
+    args: [
+        "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/release/binding-generator",
+        "/usr/include/opencv4",
+        "/home/Infinite-Storage-Glitch/cargo_home/registry/src/index.crates.io-6f17d22bba15001f/opencv-0.75.0/src_cpp",
+        "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out",
+        "img_hash",
+        "",
+    ],
+    create_pidfd: false,
+}
+=== Generated: hdf
+=== Running: Command {
+    program: "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/release/binding-generator",
+    args: [
+        "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/release/binding-generator",
+        "/usr/include/opencv4",
+        "/home/Infinite-Storage-Glitch/cargo_home/registry/src/index.crates.io-6f17d22bba15001f/opencv-0.75.0/src_cpp",
+        "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out",
+        "imgcodecs",
+        "",
+    ],
+    create_pidfd: false,
+}
+=== Generated: hfs
+=== Running: Command {
+    program: "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/release/binding-generator",
+    args: [
+        "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/release/binding-generator",
+        "/usr/include/opencv4",
+        "/home/Infinite-Storage-Glitch/cargo_home/registry/src/index.crates.io-6f17d22bba15001f/opencv-0.75.0/src_cpp",
+        "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out",
+        "imgproc",
+        "",
+    ],
+    create_pidfd: false,
+}
+=== Generated: fuzzy
+=== Running: Command {
+    program: "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/release/binding-generator",
+    args: [
+        "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/release/binding-generator",
+        "/usr/include/opencv4",
+        "/home/Infinite-Storage-Glitch/cargo_home/registry/src/index.crates.io-6f17d22bba15001f/opencv-0.75.0/src_cpp",
+        "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out",
+        "intensity_transform",
+        "",
+    ],
+    create_pidfd: false,
+}
+=== Generated: highgui
+=== Running: Command {
+    program: "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/release/binding-generator",
+    args: [
+        "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/release/binding-generator",
+        "/usr/include/opencv4",
+        "/home/Infinite-Storage-Glitch/cargo_home/registry/src/index.crates.io-6f17d22bba15001f/opencv-0.75.0/src_cpp",
+        "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out",
+        "line_descriptor",
+        "",
+    ],
+    create_pidfd: false,
+}
+=== Generated: img_hash
+=== Running: Command {
+    program: "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/release/binding-generator",
+    args: [
+        "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/release/binding-generator",
+        "/usr/include/opencv4",
+        "/home/Infinite-Storage-Glitch/cargo_home/registry/src/index.crates.io-6f17d22bba15001f/opencv-0.75.0/src_cpp",
+        "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out",
+        "mcc",
+        "",
+    ],
+    create_pidfd: false,
+}
+=== Generated: imgcodecs
+=== Running: Command {
+    program: "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/release/binding-generator",
+    args: [
+        "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/release/binding-generator",
+        "/usr/include/opencv4",
+        "/home/Infinite-Storage-Glitch/cargo_home/registry/src/index.crates.io-6f17d22bba15001f/opencv-0.75.0/src_cpp",
+        "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out",
+        "ml",
+        "",
+    ],
+    create_pidfd: false,
+}
+=== Generated: imgproc
+=== Running: Command {
+    program: "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/release/binding-generator",
+    args: [
+        "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/release/binding-generator",
+        "/usr/include/opencv4",
+        "/home/Infinite-Storage-Glitch/cargo_home/registry/src/index.crates.io-6f17d22bba15001f/opencv-0.75.0/src_cpp",
+        "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out",
+        "objdetect",
+        "",
+    ],
+    create_pidfd: false,
+}
+=== Generated: intensity_transform
+=== Running: Command {
+    program: "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/release/binding-generator",
+    args: [
+        "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/release/binding-generator",
+        "/usr/include/opencv4",
+        "/home/Infinite-Storage-Glitch/cargo_home/registry/src/index.crates.io-6f17d22bba15001f/opencv-0.75.0/src_cpp",
+        "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out",
+        "optflow",
+        "",
+    ],
+    create_pidfd: false,
+}
+=== Generated: mcc
+=== Running: Command {
+    program: "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/release/binding-generator",
+    args: [
+        "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/release/binding-generator",
+        "/usr/include/opencv4",
+        "/home/Infinite-Storage-Glitch/cargo_home/registry/src/index.crates.io-6f17d22bba15001f/opencv-0.75.0/src_cpp",
+        "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out",
+        "phase_unwrapping",
+        "",
+    ],
+    create_pidfd: false,
+}
+=== Generated: line_descriptor
+=== Running: Command {
+    program: "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/release/binding-generator",
+    args: [
+        "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/release/binding-generator",
+        "/usr/include/opencv4",
+        "/home/Infinite-Storage-Glitch/cargo_home/registry/src/index.crates.io-6f17d22bba15001f/opencv-0.75.0/src_cpp",
+        "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out",
+        "photo",
+        "",
+    ],
+    create_pidfd: false,
+}
+=== Generated: ml
+=== Running: Command {
+    program: "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/release/binding-generator",
+    args: [
+        "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/release/binding-generator",
+        "/usr/include/opencv4",
+        "/home/Infinite-Storage-Glitch/cargo_home/registry/src/index.crates.io-6f17d22bba15001f/opencv-0.75.0/src_cpp",
+        "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out",
+        "plot",
+        "",
+    ],
+    create_pidfd: false,
+}
+=== Generated: objdetect
+=== Running: Command {
+    program: "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/release/binding-generator",
+    args: [
+        "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/release/binding-generator",
+        "/usr/include/opencv4",
+        "/home/Infinite-Storage-Glitch/cargo_home/registry/src/index.crates.io-6f17d22bba15001f/opencv-0.75.0/src_cpp",
+        "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out",
+        "quality",
+        "",
+    ],
+    create_pidfd: false,
+}
+=== Generated: optflow
+=== Running: Command {
+    program: "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/release/binding-generator",
+    args: [
+        "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/release/binding-generator",
+        "/usr/include/opencv4",
+        "/home/Infinite-Storage-Glitch/cargo_home/registry/src/index.crates.io-6f17d22bba15001f/opencv-0.75.0/src_cpp",
+        "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out",
+        "rapid",
+        "",
+    ],
+    create_pidfd: false,
+}
+=== Generated: photo
+=== Running: Command {
+    program: "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/release/binding-generator",
+    args: [
+        "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/release/binding-generator",
+        "/usr/include/opencv4",
+        "/home/Infinite-Storage-Glitch/cargo_home/registry/src/index.crates.io-6f17d22bba15001f/opencv-0.75.0/src_cpp",
+        "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out",
+        "rgbd",
+        "",
+    ],
+    create_pidfd: false,
+}
+=== Generated: phase_unwrapping
+=== Running: Command {
+    program: "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/release/binding-generator",
+    args: [
+        "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/release/binding-generator",
+        "/usr/include/opencv4",
+        "/home/Infinite-Storage-Glitch/cargo_home/registry/src/index.crates.io-6f17d22bba15001f/opencv-0.75.0/src_cpp",
+        "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out",
+        "saliency",
+        "",
+    ],
+    create_pidfd: false,
+}
+=== Generated: plot
+=== Running: Command {
+    program: "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/release/binding-generator",
+    args: [
+        "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/release/binding-generator",
+        "/usr/include/opencv4",
+        "/home/Infinite-Storage-Glitch/cargo_home/registry/src/index.crates.io-6f17d22bba15001f/opencv-0.75.0/src_cpp",
+        "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out",
+        "shape",
+        "",
+    ],
+    create_pidfd: false,
+}
+=== Generated: rapid
+=== Running: Command {
+    program: "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/release/binding-generator",
+    args: [
+        "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/release/binding-generator",
+        "/usr/include/opencv4",
+        "/home/Infinite-Storage-Glitch/cargo_home/registry/src/index.crates.io-6f17d22bba15001f/opencv-0.75.0/src_cpp",
+        "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out",
+        "stereo",
+        "",
+    ],
+    create_pidfd: false,
+}
+=== Generated: quality
+=== Running: Command {
+    program: "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/release/binding-generator",
+    args: [
+        "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/release/binding-generator",
+        "/usr/include/opencv4",
+        "/home/Infinite-Storage-Glitch/cargo_home/registry/src/index.crates.io-6f17d22bba15001f/opencv-0.75.0/src_cpp",
+        "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out",
+        "stitching",
+        "",
+    ],
+    create_pidfd: false,
+}
+=== Generated: saliency
+=== Running: Command {
+    program: "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/release/binding-generator",
+    args: [
+        "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/release/binding-generator",
+        "/usr/include/opencv4",
+        "/home/Infinite-Storage-Glitch/cargo_home/registry/src/index.crates.io-6f17d22bba15001f/opencv-0.75.0/src_cpp",
+        "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out",
+        "structured_light",
+        "",
+    ],
+    create_pidfd: false,
+}
+=== Generated: shape
+=== Running: Command {
+    program: "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/release/binding-generator",
+    args: [
+        "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/release/binding-generator",
+        "/usr/include/opencv4",
+        "/home/Infinite-Storage-Glitch/cargo_home/registry/src/index.crates.io-6f17d22bba15001f/opencv-0.75.0/src_cpp",
+        "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out",
+        "superres",
+        "",
+    ],
+    create_pidfd: false,
+}
+=== Generated: rgbd
+=== Running: Command {
+    program: "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/release/binding-generator",
+    args: [
+        "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/release/binding-generator",
+        "/usr/include/opencv4",
+        "/home/Infinite-Storage-Glitch/cargo_home/registry/src/index.crates.io-6f17d22bba15001f/opencv-0.75.0/src_cpp",
+        "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out",
+        "surface_matching",
+        "",
+    ],
+    create_pidfd: false,
+}
+=== Generated: stereo
+=== Running: Command {
+    program: "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/release/binding-generator",
+    args: [
+        "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/release/binding-generator",
+        "/usr/include/opencv4",
+        "/home/Infinite-Storage-Glitch/cargo_home/registry/src/index.crates.io-6f17d22bba15001f/opencv-0.75.0/src_cpp",
+        "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out",
+        "text",
+        "",
+    ],
+    create_pidfd: false,
+}
+=== Generated: structured_light
+=== Running: Command {
+    program: "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/release/binding-generator",
+    args: [
+        "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/release/binding-generator",
+        "/usr/include/opencv4",
+        "/home/Infinite-Storage-Glitch/cargo_home/registry/src/index.crates.io-6f17d22bba15001f/opencv-0.75.0/src_cpp",
+        "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out",
+        "tracking",
+        "",
+    ],
+    create_pidfd: false,
+}
+=== Generated: stitching
+=== Running: Command {
+    program: "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/release/binding-generator",
+    args: [
+        "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/release/binding-generator",
+        "/usr/include/opencv4",
+        "/home/Infinite-Storage-Glitch/cargo_home/registry/src/index.crates.io-6f17d22bba15001f/opencv-0.75.0/src_cpp",
+        "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out",
+        "video",
+        "",
+    ],
+    create_pidfd: false,
+}
+=== Generated: superres
+=== Running: Command {
+    program: "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/release/binding-generator",
+    args: [
+        "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/release/binding-generator",
+        "/usr/include/opencv4",
+        "/home/Infinite-Storage-Glitch/cargo_home/registry/src/index.crates.io-6f17d22bba15001f/opencv-0.75.0/src_cpp",
+        "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out",
+        "videoio",
+        "",
+    ],
+    create_pidfd: false,
+}
+=== Generated: surface_matching
+=== Running: Command {
+    program: "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/release/binding-generator",
+    args: [
+        "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/release/binding-generator",
+        "/usr/include/opencv4",
+        "/home/Infinite-Storage-Glitch/cargo_home/registry/src/index.crates.io-6f17d22bba15001f/opencv-0.75.0/src_cpp",
+        "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out",
+        "videostab",
+        "",
+    ],
+    create_pidfd: false,
+}
+=== Generated: text
+=== Running: Command {
+    program: "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/release/binding-generator",
+    args: [
+        "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/release/binding-generator",
+        "/usr/include/opencv4",
+        "/home/Infinite-Storage-Glitch/cargo_home/registry/src/index.crates.io-6f17d22bba15001f/opencv-0.75.0/src_cpp",
+        "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out",
+        "viz",
+        "",
+    ],
+    create_pidfd: false,
+}
+=== Generated: tracking
+=== Running: Command {
+    program: "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/release/binding-generator",
+    args: [
+        "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/release/binding-generator",
+        "/usr/include/opencv4",
+        "/home/Infinite-Storage-Glitch/cargo_home/registry/src/index.crates.io-6f17d22bba15001f/opencv-0.75.0/src_cpp",
+        "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out",
+        "wechat_qrcode",
+        "",
+    ],
+    create_pidfd: false,
+}
+=== Generated: videoio
+=== Running: Command {
+    program: "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/release/binding-generator",
+    args: [
+        "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/release/binding-generator",
+        "/usr/include/opencv4",
+        "/home/Infinite-Storage-Glitch/cargo_home/registry/src/index.crates.io-6f17d22bba15001f/opencv-0.75.0/src_cpp",
+        "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out",
+        "ximgproc",
+        "",
+    ],
+    create_pidfd: false,
+}
+=== Generated: video
+=== Running: Command {
+    program: "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/release/binding-generator",
+    args: [
+        "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/release/binding-generator",
+        "/usr/include/opencv4",
+        "/home/Infinite-Storage-Glitch/cargo_home/registry/src/index.crates.io-6f17d22bba15001f/opencv-0.75.0/src_cpp",
+        "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out",
+        "xobjdetect",
+        "",
+    ],
+    create_pidfd: false,
+}
+=== Generated: videostab
+=== Running: Command {
+    program: "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/release/binding-generator",
+    args: [
+        "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out/release/binding-generator",
+        "/usr/include/opencv4",
+        "/home/Infinite-Storage-Glitch/cargo_home/registry/src/index.crates.io-6f17d22bba15001f/opencv-0.75.0/src_cpp",
+        "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out",
+        "xphoto",
+        "",
+    ],
+    create_pidfd: false,
+}
+=== Generated: wechat_qrcode
+=== Generated: viz
+=== Generated: ximgproc
+=== Generated: xobjdetect
+=== Generated: xphoto
+=== Total binding generation time: 25.418274894s
+=== Compiler information: Tool {
+    path: "c++",
+    cc_wrapper_path: None,
+    cc_wrapper_args: [],
+    args: [
+        "-O3",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fPIC",
+        "-m64",
+        "-I",
+        "/home/Infinite-Storage-Glitch/cargo_home/registry/src/index.crates.io-6f17d22bba15001f/opencv-0.75.0/src_cpp",
+        "-I",
+        "/home/Infinite-Storage-Glitch/target/release/build/opencv-f2f5b3860661e7d8/out",
+        "-I",
+        ".",
+        "-I",
+        "/usr/include/opencv4",
+        "-Wall",
+        "-Wextra",
+        "-std=c++11",
+        "-Wno-deprecated-declarations",
+        "-Wno-deprecated-copy",
+        "-Wno-unused-parameter",
+        "-Wno-sign-compare",
+        "-Wno-comment",
+        "-Wno-unused-variable",
+        "-Wno-ignored-qualifiers",
+        "-Wno-return-type-c-linkage",
+    ],
+    env: [],
+    family: Gnu,
+    cuda: false,
+    removed_args: [],
+}

@@ -1,0 +1,24 @@
+name: lint
+
+on:
+  push:
+    branches: [main, 0.4.x]
+  pull_request:
+    paths:
+      - "**.rs"
+      - .github/**
+      - .ci/**
+      - Cargo.toml
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - uses: dtolnay/rust-toolchain@stable
+      - uses: Swatinem/rust-cache@v1
+      - run: cargo fmt -- --check --color=always
+      - run: cargo clippy --color=always -- -D warnings -A clippy::manual-non-exhaustive
+        env:
+          RUSTFLAGS: "-Dwarnings"
